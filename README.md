@@ -862,183 +862,186 @@ Descripción breve de todos los tipos de particiones:
 
 34 ◦ Ahora debemos crear todas las particiones lógicas. Al tener que repetir las mismas acciones varias veces hay capturas que no serán documentadas.
 
+<!--
 ![image](https://user-images.githubusercontent.com/66915274/197439138-889d6368-1875-402b-a094-bd146bb7cb8a.png)
+-->
 
+<img width="457" alt="Captura148" src="imgReadme/img148.png">
 
-<img width="457" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399108-fb566eb4-664f-4509-8948-ab4ed04407b5.png">
+<img width="457" alt="Captura149" src="imgReadme/img149.png">
 
 35 ◦ Empezaremos escogiendo el grupo donde queremos que se creen. Seleccionamos el único disponible (el que acabamos de crear). 
 
-<img width="760" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399115-e7d3b313-763c-421c-a71d-850d318432e7.png">
+<img width="760" alt="Captura150" src="imgReadme/img150.png">
 
 36 ◦ El orden de la creación de las unidades lógicas será el mismo que indica el subject asique empezaremos por root y acabaremos por var-log. Entonces seleccionaremos el nombre del volumen lógico.
 
-<img width="662" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399188-6ae8c83b-057d-498f-b112-9116079b0808.png">
+<img width="662" alt="Captura151" src="imgReadme/img151.png">
 
 37 ◦ Tamaño como bien indica el subject será de 10g.
 
-<img width="782" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399216-c65f43ca-fb8e-4d05-9212-24ad2ee87b39.png">
+<img width="782" alt="Captura152" src="imgReadme/img152.png">
 
 38 ◦ Repetimos el proceso para ```swap```. Solo cambiaremos el nombre y el tamaño.
 
-<img width="443" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399239-c26598cb-e7bb-474c-aece-90f043e1990f.png">
+<img width="443" alt="Captura153" src="imgReadme/img153.png">
 
-<img width="751" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399278-c5cd5a9c-2ab1-42b9-8871-b58e9b33b4b6.png">
+<img width="751" alt="Captura154" src="imgReadme/img154.png">
 
-<img width="667" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399288-7ecf6adf-aaf5-46bf-959f-2159d19b7bbf.png">
+<img width="667" alt="Captura155" src="imgReadme/img155.png">
 
-<img width="782" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399310-fc6c397e-8257-4e06-8fba-ad35431c9b96.png">
+<img width="782" alt="Captura156" src="imgReadme/img156.png">
 
 39 ◦ Repetimos el proceso para ```home```. Solo cambiaremos el nombre y el tamaño.
 
-<img width="476" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399347-a815d58b-686e-4d9d-bb5c-34a7b54476ab.png">
+<img width="476" alt="Captura157" src="imgReadme/img157.png">
 
-<img width="756" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399355-28617029-c28c-4ca4-b56b-646e066cded6.png">
+<img width="756" alt="Captura158" src="imgReadme/img158.png">
 
-<img width="672" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399433-1e9c7110-9240-4982-9835-b026ed73171f.png">
+<img width="672" alt="Captura159" src="imgReadme/img159.png">
 
-<img width="770" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399610-247a7a35-0141-4c14-884e-7ecd07caa96d.png">
+<img width="770" alt="Captura160" src="imgReadme/img160.png">
 
 40 ◦ Repetimos el proceso para ```var```. Solo cambiaremos el nombre y el tamaño.
 
-<img width="482" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399644-58da651c-f4ad-4d1e-b128-de87c92cc292.png">
+<img width="482" alt="Captura161" src="imgReadme/img161.png">
 
-<img width="700" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399662-32ab0a06-c14d-4a0e-ac80-cb0d12fc24eb.png">
+<img width="700" alt="Captura162" src="imgReadme/img162.png">
 
-<img width="774" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399693-b49c2ffe-b21a-43c5-bd3f-160bc544b072.png">
+<img width="774" alt="Captura163" src="imgReadme/img163.png">
 
 41 ◦ Repetimos el proceso para ```srv```. Solo cambiaremos el nombre.
 
-<img width="446" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399702-6d531de3-690d-458d-9a3b-bf6ceedd7cda.png">
+<img width="446" alt="Captura164" src="imgReadme/imgxxx.png">
 
-<img width="754" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399724-0fdd75ad-e978-4468-8509-a62cdc4a3faf.png">
+<img width="754" alt="Captura165" src="imgReadme/imgxxx.png">
 
-<img width="671" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399744-b82b1dcd-09c7-44cc-a2ab-b6079abcbb5a.png">
+<img width="671" alt="Captura166" src="imgReadme/imgxxx.png">
 
-<img width="771" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399757-94732b16-585e-4f7d-a20f-f7ef0814b4e7.png">
+<img width="771" alt="Captura167" src="imgReadme/imgxxx.png">
 
 42 ◦ Repetimos el proceso para ```tmp```. Solo cambiaremos el nombre.
 
-<img width="481" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399777-9d871f2a-856d-4b4d-ad18-1195001b0fdf.png">
+<img width="481" alt="Captura168" src="imgReadme/imgxxx.png">
 
-<img width="732" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399792-0794ace5-c236-4f68-b023-bb471753eba2.png">
+<img width="732" alt="Captura169" src="imgReadme/imgxxx.png">
 
-<img width="659" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399798-84a31102-6953-468b-85d4-0a248e98cb17.png">
+<img width="659" alt="Captura170" src="imgReadme/imgxxx.png">
 
-<img width="768" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399827-5dfc8571-e82c-4a28-aae7-dc716fb6e77b.png">
+<img width="768" alt="Captura171" src="imgReadme/imgxxx.png">
 
 43 ◦ Por último repetimos el proceso para ```var-log```. Solo cambiaremos el nombre y el tamaño.
 
-<img width="448" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399838-2cd49171-45dd-469a-887c-3ce99d84b7cd.png">
+<img width="448" alt="Captura172" src="imgReadme/imgxxx.png">
 
-<img width="762" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399841-04b75112-4d21-456c-bf50-8335839764e0.png">
+<img width="762" alt="Captura173" src="imgReadme/imgxxx.png">
 
-<img width="658" alt="CapturaxxxM" src="https://user-images.githubusercontent.com/66915274/197399859-d706de2e-bb20-4a04-96db-4dd57b3778be.png">
+<img width="658" alt="Captura174" src="imgReadme/imgxxx.png">
 
-<img width="779" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399886-a1e9ee69-78a4-4071-af99-2192d535c6cd.png">
+<img width="779" alt="Captura175" src="imgReadme/imgxxx.png">
 
 
 44 ◦ Una vez hayamos completado todos los pasos anteriores finalizaremos la configuración del gestor de volúmenes lógicos.
 
-<img width="438" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399904-c584fcdf-eb38-486f-af12-7374f1e04465.png">
+<img width="438" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 45 ◦ Ahora podemos observar como en el apartado donde nos muestran todas nuestras particiones y espacio libre ya aparecen todas las particiones lógicas que acabamos de crear. Bien , debemos configurar todas para seleccionar el sistema de archivos que queremos y el punto de montaje que indica el subject. De nuevo iremos por orden y seleccionaremos la primera que nos aparece que es ```home```.
 
-<img width="783" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399944-bccbe599-b80a-4abe-ac6c-d770447ea727.png">
+<img width="783" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 46 ◦ Nos muestra la configuración de la partición. Debemos escoger un sistema de ficheros ya que actualmente no tiene.
 
-<img width="782" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197399976-9b871bda-9425-4dbe-b8c9-25c8c6d6c811.png">
+<img width="782" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 47 ◦ Escogemos el sistema de archivos Ext4, es el sistema de archivos más utilizado en distribuciones Linux.  
 
-<img width="412" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400000-2e855fc9-10b1-4f3e-9c58-85b6ff02a4fb.png">
+<img width="412" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 48 ◦ Ahora debemos seleccionar el punto de montaje. 
 
-<img width="782" alt="CapturaxxxM" src="https://user-images.githubusercontent.com/66915274/197400023-387a70aa-b491-43c0-91d2-cb378da9fc75.png">
+<img width="782" alt="CapturaxxxM" src="imgReadme/imgxxx.png">
 
 49 ◦ Seleccionamos ```home``` como bien indica el subject.
 
-<img width="515" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400040-e79cad4f-368b-4cee-9ec0-942f38b2f785.png">
+<img width="515" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 50 ◦ Una vez ya lo hemos seleccionado terminaremos la configuración de la partición.
 
-<img width="785" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400059-ab96f2c4-cd92-47cb-a9ee-61257537ee6a.png">
+<img width="785" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 51 ◦ De nuevo estos pasos se pueden volver muy repetitivos asique no comentare mucho. Repetimos todo igual (excepto el punto de montaje) para ```root```.
 
-<img width="782" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400135-c08444fe-e39d-45fa-a3b6-3c73db2a4935.png">
+<img width="782" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="782" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400146-41ce0b0c-142c-46b4-a3c5-918676a3a852.png">
+<img width="782" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="421" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400155-92759327-5671-41f4-8104-dd1de4bc88cb.png">
+<img width="421" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="775" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400171-6fd04783-e833-4afd-a753-4b943133a4ab.png">
+<img width="775" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="525" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400182-780e1917-3f77-4986-b0e8-b50a90d75403.png">
+<img width="525" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="790" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400186-88da831a-c672-4ec0-a64c-0ad2808bb6c5.png">
+<img width="790" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 52 ◦ Repetimos el proceso para ```srv``` y cambiaremos el punto de montaje.
 
-<img width="778" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400198-599b4aa3-a511-45d1-86b0-dd42da4c380f.png">
+<img width="778" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="778" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400218-e6b26eb7-7933-426f-a7cd-a791400ebdab.png">
+<img width="778" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="428" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400222-95107b34-8d28-4d4d-a74b-7de6c6a46d33.png">
+<img width="428" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="787" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400227-20c13dc0-52cd-4c70-bf4e-531979c54a3e.png">
+<img width="787" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="530" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400238-3b403294-74d1-4e63-aca7-7d83447ed5b8.png">
+<img width="530" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="790" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400249-035f6b9d-3716-4565-9776-aa0af49b3fd7.png">
+<img width="790" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 53 ◦ Para ```swap``` haremos una excepción ya el sistema de archivos será diferente. Seleccionamos ```swap```.
 
-<img width="780" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400272-112b44ef-4996-438a-90b8-6620cdd7d2ff.png">
+<img width="780" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 54 ◦ En el momento de seleccionar el sistema de archivos lo dejamos en ```swap area```.
 
-<img width="785" alt="CapturaxxxM" src="https://user-images.githubusercontent.com/66915274/197400281-e12ee636-8696-4bee-9198-862b7d6be199.png">
+<img width="785" alt="CapturaxxxM" src="imgReadme/imgxxx.png">
 
 55 ◦ Una vez realizado el paso anterior terminaremos la configuración de la partición.
 
-<img width="370" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/197400297-8eed129d-0ec0-49a8-8b2a-dd0d04055f75.png">
+<img width="370" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="787" alt="Screen Shot 2022-10-23 at 5 17 09 PM" src="https://user-images.githubusercontent.com/66915274/197400309-74e83209-4b2a-4e27-9a67-44373c1db362.png">
+<img width="787" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 56 ◦ Ahora si volveremos a hacer lo mismo que antes pero ahora lo haremos con ```tmp``` y cambiando el punto de montaje.
 
-<img width="777" alt="Screen Shot 2022-10-23 at 5 17 41 PM" src="https://user-images.githubusercontent.com/66915274/197400341-608516f6-0f5a-4cdd-83d8-c8fbd1635624.png">
+<img width="777" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="778" alt="Screen Shot 2022-10-23 at 5 17 49 PM" src="https://user-images.githubusercontent.com/66915274/197400346-e9647c7a-a9a2-4a0f-b439-a912247fb3f9.png">
+<img width="778" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="372" alt="Screen Shot 2022-10-23 at 5 18 01 PM" src="https://user-images.githubusercontent.com/66915274/197400360-1816d06a-252e-4d41-b1a2-fc547961f353.png">
+<img width="372" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="781" alt="Screen Shot 2022-10-23 at 5 18 08 PM" src="https://user-images.githubusercontent.com/66915274/197400370-0474b71f-c1c3-445f-ba02-088dc1c64ce3.png">
+<img width="781" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="496" alt="Screen Shot 2022-10-23 at 5 18 24 PM" src="https://user-images.githubusercontent.com/66915274/197400386-f66494c5-97b9-4bb9-8c75-5856d69d26cc.png">
+<img width="496" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="783" alt="Screen Shot 2022-10-23 at 5 18 40 PM" src="https://user-images.githubusercontent.com/66915274/197400405-4a368bfb-f862-4bbd-a33e-b87c3038d232.png">
+<img width="783" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 57 ◦ Repetimos de nuevo el proceso para ```var``` cambiando el punto de montaje.
 
-<img width="773" alt="Screen Shot 2022-10-23 at 5 19 13 PM" src="https://user-images.githubusercontent.com/66915274/197400447-85bcad13-8083-4aec-acb2-fa467e5d4e33.png">
+<img width="773" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="790" alt="Screen Shot 2022-10-23 at 5 19 21 PM" src="https://user-images.githubusercontent.com/66915274/197400452-aed22368-4889-4c04-bf60-5a06fb93944e.png">
+<img width="790" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="386" alt="Screen Shot 2022-10-23 at 5 19 28 PM" src="https://user-images.githubusercontent.com/66915274/197400459-b6f59948-e804-414a-b41d-21d2f495fccc.png">
+<img width="386" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="780" alt="Screen Shot 2022-10-23 at 5 19 36 PM" src="https://user-images.githubusercontent.com/66915274/197400462-788d29e5-7798-418a-8725-3cb8dd2849bd.png">
+<img width="780" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="515" alt="Screen Shot 2022-10-23 at 5 19 51 PM" src="https://user-images.githubusercontent.com/66915274/197400473-4508d9d6-481d-4f3a-9630-6c1eba7c5cc0.png">
+<img width="515" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="779" alt="Screen Shot 2022-10-23 at 5 20 00 PM" src="https://user-images.githubusercontent.com/66915274/197400482-1f8c147f-66d8-438b-866f-3e9eff75ef5e.png">
+<img width="779" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 58 ◦ Por último repetimos de nuevo el proceso para ```var-log``` en este deberemos introducir manualmente el punto de montaje.
 
-<img width="772" alt="Screen Shot 2022-10-23 at 5 20 23 PM" src="https://user-images.githubusercontent.com/66915274/197400513-53b3f899-47f5-4cdb-ab4b-205b1d1bce31.png">
+<img width="772" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ![image](https://user-images.githubusercontent.com/66915274/197602511-fa34155b-3244-4b0c-8054-2778edecfb16.png)
 
@@ -1062,39 +1065,39 @@ Descripción breve de todos los tipos de particiones:
 
 61 ◦ Seleccionamos la opción ```No``` ya que no necesitamos paquetes adicionales. 
 
-<img width="770" alt="Captura de pantalla 2022-07-13 a las 20 05 42" src="https://user-images.githubusercontent.com/66915274/178801099-2dda24f5-0d46-4184-8c44-a8fe0bf46527.png">
+<img width="770" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 62 ◦ Escogemos nuestro País.
 
-<img width="756" alt="Captura de pantalla 2022-07-13 a las 20 14 23" src="https://user-images.githubusercontent.com/66915274/178802653-d9e8504a-b60b-4441-8ee3-8d48ca4a6bf0.png">
+<img width="756" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 63 ◦ Escogemos ```deb.debian.org``` ya que tenindo en cuenta nuestra region es donde tendremos una mejor conexión.
 
-<img width="792" alt="Captura de pantalla 2022-07-13 a las 20 15 00" src="https://user-images.githubusercontent.com/66915274/178802772-4f67cd99-60d5-4439-8502-317e81e07d70.png">
+<img width="792" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 64 ◦ Esta opción la dejaremos vacía le daremos directamente a ```Continue```.
 
-<img width="797" alt="Captura de pantalla 2022-07-13 a las 20 17 24" src="https://user-images.githubusercontent.com/66915274/178803208-2969acae-3fa7-423e-8a3c-bb7c76eff824.png">
+<img width="797" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 65 ◦ Seleccionamos la opcion ```No``` ya que no queremos que los developers vean nuestras estadísticas aunque sean anónimas.
 
-<img width="796" alt="Captura de pantalla 2022-07-13 a las 20 21 54" src="https://user-images.githubusercontent.com/66915274/178803926-a4efbc70-f3e2-4e6c-9809-9152478d8237.png">
+<img width="796" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 66 ◦ Quitaremos todas las opciones de software (con la barra espaciadora) y le daremos a ```Continue```.
 
-<img width="797" alt="Captura de pantalla 2022-07-13 a las 20 24 17" src="https://user-images.githubusercontent.com/66915274/178804377-e775b89e-93d4-482f-a4d0-0ef126f47719.png">
+<img width="797" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 67 ◦ Seleccionaremos ```Yes``` para instalar [GRUB boot](https://es.wikipedia.org/wiki/GNU_GRUB) en el disco duro.
 
-<img width="792" alt="Captura de pantalla 2022-07-13 a las 20 26 24" src="https://user-images.githubusercontent.com/66915274/178804771-ba16e0b7-9f06-4c5b-9451-0bfd65efd2bb.png">
+<img width="792" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 68 ◦ Escogeremos el dispositivo para la instalación del cargador de arranque ```/dev/sda (ata_VBOX_HARDDISK)```.
 
-<img width="792" alt="Captura de pantalla 2022-07-13 a las 20 35 46" src="https://user-images.githubusercontent.com/66915274/178806441-f1bf3159-4e09-4c9a-9102-b3261c9000d8.png">
+<img width="792" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 69 ◦ Le daremos a ```Continue``` para finalizar la instalación. 
 
-<img width="794" alt="Captura de pantalla 2022-07-13 a las 20 39 30" src="https://user-images.githubusercontent.com/66915274/178807102-e2a9722e-791f-48a0-ae35-b05b36a37ed2.png">
+<img width="794" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 70 ◦ Una vez hemos terminado con la instalación de debian debemos configurar nuestra máquina virtual.
 
@@ -1108,19 +1111,19 @@ Descripción breve de todos los tipos de particiones:
 
 1 ◦ Instalación de paquetes de lighttpd.
 
-<img width="791" alt="Screen Shot 2022-10-27 at 4 09 24 AM" src="https://user-images.githubusercontent.com/66915274/198174389-428c30e0-c437-4bc1-b8df-40dd2fb0c0ce.png">
+<img width="791" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 2 ◦ Permitimos las conexiones mediante el puerto 80 con el comando ```sudo ufw allow 80```.
 
-<img width="306" alt="Screen Shot 2022-10-27 at 4 15 24 AM" src="https://user-images.githubusercontent.com/66915274/198175046-8ea3f052-32f1-4107-a9a1-c9271d6c9ce6.png">
+<img width="306" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 3 ◦ Checkeamos que realmente hayamos permitido. Debe aparecer el puerto 80 y allow.
 
-<img width="460" alt="Screen Shot 2022-10-27 at 4 15 45 AM" src="https://user-images.githubusercontent.com/66915274/198175075-da6833f1-2360-4e08-b708-99f920b8215c.png">
+<img width="460" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 4 ◦ Añadimos la regla que incluya el puerto 80. Si no recuerdas como se añadian reglas en el reenvío de puertos. Configuración de la máquina → Red → Reenvío de puertos → Replicar la captura.
 
-<img width="877" alt="Screen Shot 2022-11-18 at 2 49 56 PM" src="https://user-images.githubusercontent.com/66915274/202720044-d7a51add-c5ee-4da4-9057-258e47cfd036.png">
+<img width="877" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ### WordPress 
 
@@ -1132,31 +1135,31 @@ Descripción breve de todos los tipos de particiones:
 
 🧠 <b> Que es zip❓</b> Es una utilidad de línea de comandos para comprimir y descomprimir archivos en formato ZIP.
 
-<img width="584" alt="Screen Shot 2022-11-18 at 2 45 11 PM" src="https://user-images.githubusercontent.com/66915274/202719000-dfc10731-7d29-4976-9867-d2a38e0f6407.png">
+<img width="584" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 2 ◦ Una vez hayamos instalado los paquetes nos debemos ubicar en la carpeta /var/www/ con el comando cd accederemos a ella ```cd /var/wwww```.
 
-<img width="361" alt="Screen Shot 2022-11-18 at 2 45 53 PM" src="https://user-images.githubusercontent.com/66915274/202719112-c238f259-2a59-41ea-bbaa-8676742b2ef2.png">
+<img width="361" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 3 ◦ Una vez estemos en la ruta /var/www/ deberemos descargar la última versión de WordPress. Como mi idioma nativo es el español yo seleccionaré la última versión en español. Utilizaremos el siguiente comando: ```sudo wget https://es.wordpress.org/latest-es_ES.zip```.
 
-<img width="779" alt="Screen Shot 2022-11-18 at 2 47 00 PM" src="https://user-images.githubusercontent.com/66915274/202719349-442e9fd5-f96a-48af-8d7a-ea8a91a4d380.png">
+<img width="779" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 4 ◦ Descomprimimos el archivo que acabamos de descargar con el comando ```sudo unzip latest-es_ES.zip```.
 
-<img width="444" alt="Screen Shot 2022-11-18 at 2 47 25 PM" src="https://user-images.githubusercontent.com/66915274/202719435-99d6af72-98f4-47b0-befb-0f3e45db4520.png">
+<img width="444" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 5 ◦ Renombraremos la carpeta html y la llamaremos html_old. ```sudo mv html/ html_old/```.
 
-<img width="402" alt="Screen Shot 2022-11-18 at 2 48 21 PM" src="https://user-images.githubusercontent.com/66915274/202719636-8deea2b6-2953-43da-86a7-17f76c14440a.png">
+<img width="402" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 6 ◦ Ahora renombraremos la carpeta wordpress y la llamaremos html. ```sudo mv wordpress/ html```.
 
-<img width="398" alt="Screen Shot 2022-11-18 at 2 48 49 PM" src="https://user-images.githubusercontent.com/66915274/202719749-4c914197-3891-4bcc-afb8-54c94b5f77cb.png">
+<img width="398" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 7 ◦ Por último estableceremos estos permisos en la carpeta html. Daremos uso del comando ```sudo chmod -R 755 html```. El número 7 indica que el propietario tiene permisos de lectura, escritura y ejecución. El número 5 indica que el grupo y otros solo tienen permisos de lectura y ejecución.
 
-<img width="396" alt="Screen Shot 2022-11-18 at 2 49 17 PM" src="https://user-images.githubusercontent.com/66915274/202719852-48b9ee14-3b15-49e2-bbd2-ca172a1f65ef.png">
+<img width="396" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ### Mariadb
 
@@ -1164,7 +1167,7 @@ Descripción breve de todos los tipos de particiones:
 
 1 ◦ Instalaremos los paquetes con el comando ```sudo apt install mariadb-server```
 
-<img width="797" alt="Screen Shot 2022-10-27 at 4 17 09 AM" src="https://user-images.githubusercontent.com/66915274/198175218-65dec75f-5727-425c-97d0-2baa2b8cd457.png">
+<img width="797" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 2 ◦ Debido a que la configuración predeterminada deja su instalación de MariaDB poco segura, utilizaremos un script que proporciona el paquete mariadb-server para restringir el acceso al servidor y eliminar las cuentas no utilizadas. Ejecutaremos el script con el siguiente comando ```sudo mysql_secure_installation```. Una vez ejecutemos el script nos hara una serie de preguntas.Preguntará si deseamos cambiar a la autenticación de socket de Unix. Como ya tenemos una cuenta root protegida escribiremos ```N```.
 
@@ -1177,11 +1180,11 @@ Remove test database and acces to it? → Y
 Reaload privilege tables now? → Y
 ```
 
-<img width="629" alt="Screen Shot 2022-10-27 at 4 19 25 AM" src="https://user-images.githubusercontent.com/66915274/198175511-d826b699-770e-4142-b464-cd6a91211d6a.png">
+<img width="629" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="704" alt="Screen Shot 2022-10-27 at 1 00 20 AM" src="https://user-images.githubusercontent.com/66915274/198175719-b22bd572-ab50-4590-9298-5f5a69f98862.png">
+<img width="704" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="551" alt="Screen Shot 2022-10-27 at 1 00 40 AM" src="https://user-images.githubusercontent.com/66915274/198175732-eff97e65-d8ef-4b44-8930-62d58d910598.png">
+<img width="551" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Switch to unix_socket autentication? Escogemos ```N``` porque no deseamos que cambie a la auntenticación de socket de Unix ya tenemos una cuenta root protegida.
 
@@ -1197,31 +1200,31 @@ Reaload privilege tables now? Escogemos ```Y```. Asi se recargarán las tablas d
 
 1 ◦ Una vez hayamos terminado con la instalación de mariadb debemos crear la base de datos y el usuario para el WordPress. Lo primero debemos acceder a mariadb.
 
-<img width="492" alt="Screen Shot 2023-03-31 at 12 16 28 AM" src="https://user-images.githubusercontent.com/66915274/228976032-2a3bd66e-ce88-4bc1-9264-1d5d7f88f295.png">
+<img width="492" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 2 ◦ Creamos una base de datos para el WordPress. En mi caso le voy a llamar wp_database. Todo esto lo hare con el comando ```CREATE DATABASE wp_database;```.
 
-<img width="384" alt="Screen Shot 2023-03-31 at 9 53 17 PM" src="https://user-images.githubusercontent.com/66915274/229216821-fba3d891-c477-4e68-9799-57bcb9efcde3.png">
+<img width="384" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 3 ◦ Para asegurarnos que se ha creado la base de datos para el WordPress podemos ver todas las bases existentes con el comando ```SHOW DATABASES;```.
 
-<img width="282" alt="Screen Shot 2023-03-31 at 9 54 04 PM" src="https://user-images.githubusercontent.com/66915274/229216973-fa35f5e1-04f1-4e56-8c44-55c4ad5a8745.png">
+<img width="282" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 4 ◦ Acto seguido debemos crearemos un usuario dentro de la base de datos. Utilizaremos el comando ```CREATE USER 'gemartin'@'localhost' IDENTIFIED BY '12345';```.
 
-<img width="616" alt="Screen Shot 2023-03-31 at 9 56 59 PM" src="https://user-images.githubusercontent.com/66915274/229217478-6f7f5f3c-12cb-4d5a-981c-6fd53f884aa3.png">
+<img width="616" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 5 ◦ Vinculamos el nuevo usuario a nuestra base de datos de manera que le otorguemos los permisos necesario para poder trabajar. Daremos uso del comando ```GRANT ALL PRIVILEGES ON wp_database.* TO 'gemartin'@'localhost';```.
 
-<img width="669" alt="Screen Shot 2023-03-31 at 10 01 32 PM" src="https://user-images.githubusercontent.com/66915274/229218529-e2cdcb3f-f8bc-4474-8e7b-c1cf9499aa57.png">
+<img width="669" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 6 ◦ Actualizamos los permisos para que los cambios tengan efecto con el comando ```FLUSH PRIVILEGES;```.
 
-<img width="321" alt="Screen Shot 2023-03-31 at 10 02 01 PM" src="https://user-images.githubusercontent.com/66915274/229218623-bad5faf3-231e-4472-a617-2ead2e713313.png">
+<img width="321" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 7 ◦ Una vez hemos completado el paso anterior ya podemos salir de mariadb.
 
-<img width="295" alt="Screen Shot 2023-04-01 at 10 43 40 PM" src="https://user-images.githubusercontent.com/66915274/229313206-36b09583-1930-4754-b70a-8d4caa38db9e.png">
+<img width="295" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ### PHP
 
@@ -1229,25 +1232,25 @@ Reaload privilege tables now? Escogemos ```Y```. Asi se recargarán las tablas d
 
 1 ◦ Instalamos los paquetes necesarios para poder ejecutar aplicaciones web escritas en lenguaje PHP y que necesiten conectarse a una base de datos MySQL. Ejecutaremos el siguiente comando ```sudo apt install php-cgi php-mysql```.
 
-<img width="541" alt="Screen Shot 2023-03-31 at 10 07 04 PM" src="https://user-images.githubusercontent.com/66915274/229308102-24ddd152-8687-410d-b207-953d36c9b591.png">
+<img width="541" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ### Configuración WordPress
 
 1 ◦ Accedemos al directorio /var/www/html con el comando: ```cd /var/www/html```
 
-<img width="326" alt="Screen Shot 2023-04-01 at 8 26 46 PM" src="https://user-images.githubusercontent.com/66915274/229308150-88ec9c15-4791-4541-baf2-5d2267b94eec.png">
+<img width="326" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 2 ◦ Copiamos el fichero wp-config-sample.php y lo renombraremos wp-config.php
 
-<img width="616" alt="Screen Shot 2023-04-01 at 8 28 42 PM" src="https://user-images.githubusercontent.com/66915274/229308231-a022e3b4-1606-4958-b530-5b2ada908997.png">
+<img width="616" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 3 ◦ Una vez lo hayamos renombrado editaremos el fichero wp-config.php ```nano wp-config.php``` y modificaremos los siguientes valores.
 
-<img width="841" alt="Screen Shot 2023-04-01 at 8 42 25 PM" src="https://user-images.githubusercontent.com/66915274/229308713-bbbb69f4-5f6c-4146-bc10-006cd968fb95.png">
+<img width="841" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Hay que remplazarlos por los valores que hemos puesto anteriormente cuando creábamos la base de datos y el usuario para que WordPress pueda conectar y hacer uso de ella.
 
-<img width="842" alt="Screen Shot 2023-04-01 at 8 46 08 PM" src="https://user-images.githubusercontent.com/66915274/229308845-4eac418d-c03f-48d1-9b74-463ef56a2ee5.png">
+<img width="842" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 4 ◦ Habilitamos el módulo fastcgi-php en Lighttpd para mejorar el rendimiento y la velocidad de las aplicaciones web en el servidor. ```sudo lighty-enable-mod fastcgi```
 
@@ -1263,31 +1266,31 @@ Hay que remplazarlos por los valores que hemos puesto anteriormente cuando creá
 
 7 ◦ Una vez ya hemos completado los pasos anteriores podemos volver a dirigirnos a nuestro navegador y escribiremos ```localhost```. Nos deberá salir lo siguiente:
 
-<img width="674" alt="Screen Shot 2023-04-01 at 8 49 00 PM" src="https://user-images.githubusercontent.com/66915274/229308949-6224a7c8-2dda-414a-b313-c14e981aca01.png">
+<img width="674" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="1075" alt="Screen Shot 2023-04-01 at 8 00 38 PM" src="https://user-images.githubusercontent.com/66915274/229308962-d39b1b6b-62cc-49d1-ad13-a016d6e73683.png">
+<img width="1075" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 8 ◦ Debemos rellenar todos los campos. En mi caso he puesto lo siguiente:
 
-<img width="793" alt="Screen Shot 2023-04-01 at 8 02 29 PM" src="https://user-images.githubusercontent.com/66915274/229309346-c712fff4-1530-42c8-ad9e-a59f85d4de51.png">
+<img width="793" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 9 ◦ Una vez hayamos rellenado todos los campos debemos darle a ```Instalar WordPress``` y ya habremos terminado la instalación. Nos saldrá la siguiente pestaña. Ahora WordPress puede crear las tablas y volcar todos los datos que necesita para funcionar en la base de datos que le hemos asignado.
 
-<img width="798" alt="Screen Shot 2023-04-01 at 8 02 52 PM" src="https://user-images.githubusercontent.com/66915274/229309399-719f525e-7859-468f-a9e6-6b6954102153.png">
+<img width="798" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 10 ◦ Si accedemos de nuevo a nuestro localhost desde el navegador ya podemos ver nuestra página funcional.
 
-<img width="2560" alt="Screen Shot 2023-04-01 at 9 02 51 PM" src="https://user-images.githubusercontent.com/66915274/229309529-96f3a1bb-d4a2-434f-bc01-2f2db0e0839d.png">
+<img width="2560" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 11 ◦ Si queremos acceder al panel de administrador para hacer cambios en nuestra página deberemos poner en el navegador ```localhost/wp-admin``` y iniciaremos sesión con nuestra cuenta.
 
-<img width="368" alt="Screen Shot 2023-04-01 at 9 05 41 PM" src="https://user-images.githubusercontent.com/66915274/229309619-024d5dcc-ea8d-4895-88f3-bb65fcdca7e2.png">
+<img width="368" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="359" alt="Screen Shot 2023-04-01 at 9 06 44 PM" src="https://user-images.githubusercontent.com/66915274/229309653-02e398e9-0c28-470e-825d-1431f7ca2bc2.png">
+<img width="359" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 12 ◦ Una vez accedamos ya podemos modificar lo que queramos a gusto propio. Personalizar la página es algo opcional, como no está especificado en el subject en esta guia no se tratará nada al respecto. 
 
-<img width="1100" alt="Screen Shot 2023-04-01 at 9 07 38 PM" src="https://user-images.githubusercontent.com/66915274/229309676-b670be09-47dd-445f-969a-bb41131aa3f9.png">
+<img width="1100" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 
 ### 8.3 - Servicio adicional ➕
@@ -1300,12 +1303,12 @@ Hay que remplazarlos por los valores que hemos puesto anteriormente cuando creá
 
 ```sudo apt update```
 
-<img width="701" alt="Screen Shot 2022-11-25 at 2 59 17 AM" src="https://user-images.githubusercontent.com/66915274/203885206-209ac64f-51a3-42e4-814e-2063cf83a156.png">
+<img width="701" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 
 ```sudo apt upgrade```
 
-<img width="507" alt="Screen Shot 2022-11-25 at 3 00 18 AM" src="https://user-images.githubusercontent.com/66915274/203885306-3b3eb6cd-64cb-4d34-967a-19e650286cf5.png">
+<img width="507" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 2 ◦ De forma predeterminada, OpenLiteSpeed está disponible en el repositorio base de Debian 11. Entonces, debes ejecutar el siguiente comando para agregar el repositorio OpenLiteSpeed a su sistema Debian:
 
@@ -1313,49 +1316,49 @@ Hay que remplazarlos por los valores que hemos puesto anteriormente cuando creá
 
 Como el comando es largo me he conectado via ssh.
 
-<img width="1129" alt="Screen Shot 2022-11-25 at 3 05 49 AM" src="https://user-images.githubusercontent.com/66915274/203885808-b4e0ff9a-580c-4121-b06f-ec229e514df9.png">
+<img width="1129" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 3 ◦ De nuevo, actualizamos los paquetes y instalaremos OpenLiteSpeed.
 
 ```sudo apt update```
 
-<img width="627" alt="Screen Shot 2022-11-25 at 3 07 31 AM" src="https://user-images.githubusercontent.com/66915274/203885968-e0297682-b18c-4363-8fcb-7553cd908f91.png">
+<img width="627" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ```sudo apt install openlitespeed```
 
-<img width="801" alt="Screen Shot 2022-11-25 at 3 11 22 AM" src="https://user-images.githubusercontent.com/66915274/203886321-dbda490e-726d-4dfb-aa91-b9e10206976a.png">
+<img width="801" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 
 4 ◦ La contraseña predeterminada para OpenLiteSpeed es 123456. Cambiaremos la contraseña a algo más seguro con el siguiente comando.
 
 ```sudo /usr/local/lsws/admin/misc/admpass.sh```
 
-<img width="607" alt="Screen Shot 2022-11-25 at 3 12 33 AM" src="https://user-images.githubusercontent.com/66915274/203886432-cb14665f-63a0-4373-919d-0dff7c04b212.png">
+<img width="607" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 5 ◦ Configuramos el firewall para permitir las conexiones mediante los puertos 8088 y 7080. Acto seguido agregaremos las reglas en el reenvio de puertos.
 
 ```sudo ufw allow 8088/tcp```
 
-<img width="446" alt="Screen Shot 2022-11-25 at 3 15 39 AM" src="https://user-images.githubusercontent.com/66915274/203886798-41d4c14f-cb4a-4982-bd92-82ade321f244.png">
+<img width="446" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ```sudo ufw allow 7080/tcp```
 
-<img width="445" alt="Screen Shot 2022-11-25 at 3 15 59 AM" src="https://user-images.githubusercontent.com/66915274/203886833-f9016672-8fda-46fc-87a9-cd194de3cc1b.png">
+<img width="445" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ```sudo ufw reload```
 
-<img width="393" alt="Screen Shot 2022-11-25 at 3 16 18 AM" src="https://user-images.githubusercontent.com/66915274/203886863-03406d5c-456a-4e80-83e9-1bf3904154d3.png">
+<img width="393" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Reglas en el reenvio de puertos.
 
-<img width="825" alt="Screen Shot 2022-11-25 at 3 16 52 AM" src="https://user-images.githubusercontent.com/66915274/203886923-1db4cf56-d197-4c41-87f6-846253e08450.png">
+<img width="825" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 
 6 ◦ Una vez completado el paso anterior ya podemos conectarnos. Pondremos en el buscador de nuestro navegador ```localhost:7080``` proporcionamos nuestras credenciales de inicio de sesión y ya tendremos acceso a todo.
 
-<img width="800" alt="Screen Shot 2022-11-25 at 3 18 53 AM" src="https://user-images.githubusercontent.com/66915274/203887182-73d29abc-674c-4ace-bffb-de42b636ec38.png">
+<img width="800" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="1206" alt="Screen Shot 2022-11-24 at 8 49 24 PM" src="https://user-images.githubusercontent.com/66915274/203856104-d4454636-2f45-4e51-8cf5-a1501398ea57.png">
+<img width="1206" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 <br>
 <br>
@@ -1370,13 +1373,13 @@ Reglas en el reenvio de puertos.
 
 ## 9- Hoja de corrección ✅
 
-<img width="773" alt="Screen Shot 2023-01-22 at 5 13 44 PM" src="https://user-images.githubusercontent.com/66915274/214894873-b92fcaeb-251b-46fb-8ab8-fb8f861976ab.png">
+<img width="773" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="772" alt="Screen Shot 2023-01-22 at 5 14 52 PM" src="https://user-images.githubusercontent.com/66915274/214894986-a0697331-8395-4f2b-9acd-50052b5b0f40.png">
+<img width="772" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="772" alt="Screen Shot 2023-01-22 at 5 15 10 PM" src="https://user-images.githubusercontent.com/66915274/214895053-482efa21-b254-41ca-8239-c5f183a4ff41.png">
+<img width="772" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="772" alt="Screen Shot 2023-01-22 at 5 15 22 PM" src="https://user-images.githubusercontent.com/66915274/214895097-ec42a53a-b897-4af8-adec-eb99aa6554c8.png">
+<img width="772" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ## 9-1 Respuestas de la evaluación 💯
 
@@ -1414,29 +1417,29 @@ Es un gestor de volúmenes lógicos. Proporciona un método para asignar espacio
 
 Utilizaremos el comando ```ls /usr/bin/*session``` y nos debe aparecer el mismo resultado que en la captura. Si aparece algo diferente se esta utilizando una interfaz grafica.
 
-<img width="352" alt="Screen Shot 2022-11-25 at 12 00 02 AM" src="https://user-images.githubusercontent.com/66915274/203872315-0e87428b-5c5a-475b-9d7c-350eafbe3bea.png">
+<img width="352" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 2 ◦ Comprobar que el servicio UFW esta en uso.
 
 ```sudo ufw status```
 
-<img width="326" alt="Screen Shot 2022-11-24 at 1 25 06 AM" src="https://user-images.githubusercontent.com/66915274/203668014-bd228793-3532-4494-8b01-d046e4930c10.png">
+<img width="326" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ```sudo service ufw status```
 
-<img width="720" alt="Screen Shot 2022-11-24 at 1 25 37 AM" src="https://user-images.githubusercontent.com/66915274/203668066-6a3420d4-ae72-4263-8474-2e4946e2367a.png">
+<img width="720" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 3 ◦ Comprobar que el servicio SSH esta en uso.
 
 ```sudo service ssh status```
 
-<img width="711" alt="Screen Shot 2022-11-24 at 1 26 43 AM" src="https://user-images.githubusercontent.com/66915274/203668165-e642c21f-a11e-48b1-bed5-83639445251e.png">
+<img width="711" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 4 ◦ Comprobar que utilizas el sistema operativo Debian o Centos.
 
 ```uname -v``` o ```uname --kernel-version```
 
-<img width="306" alt="Screen Shot 2022-11-24 at 1 37 17 AM" src="https://user-images.githubusercontent.com/66915274/203669122-0be5033c-c882-4a2e-bf22-6a680f998a56.png">
+<img width="306" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 5 ◦ Comprobar que tu usuario este dentro de los grupos "sudo" y "user42".
 
@@ -1444,186 +1447,186 @@ Utilizaremos el comando ```ls /usr/bin/*session``` y nos debe aparecer el mismo 
 
 ```getent group user42```
 
-<img width="314" alt="Screen Shot 2022-11-24 at 3 26 30 AM" src="https://user-images.githubusercontent.com/66915274/203680444-5fb18ae1-724e-4f78-a77f-a0f5bcc04913.png">
+<img width="314" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 6 ◦ Crear un nuevo usuario y mostrar que sigue la politica de contraseñas que hemos creado.
 
 ```sudo adduser name_user``` y introducimos una contraseña que siga la politica.
 
-<img width="465" alt="Screen Shot 2022-11-24 at 3 29 45 AM" src="https://user-images.githubusercontent.com/66915274/203680847-b4555fd4-f847-4bce-b944-edf3e7720c99.png">
+<img width="465" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 7 ◦ Creamos un nuevo grupo llamado "evaluating". 
 
 ```sudo addgroup evaluating```
 
-<img width="363" alt="Screen Shot 2022-11-24 at 3 30 47 AM" src="https://user-images.githubusercontent.com/66915274/203680980-784b2b60-82f4-405a-9f07-ec4948e86868.png">
+<img width="363" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 8 ◦ Añadimos el nuevo usuario al nuevo grupo.
 
 ```sudo adduser name_user evaluating```
 
-<img width="411" alt="Screen Shot 2022-11-24 at 3 33 08 AM" src="https://user-images.githubusercontent.com/66915274/203681233-096b200a-2b99-4638-81f3-a3bff046c0db.png">
+<img width="411" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Para comprobar que se haya introducido correctamente.
 
-<img width="356" alt="Screen Shot 2022-11-24 at 3 33 31 AM" src="https://user-images.githubusercontent.com/66915274/203681267-106e4d37-0ec4-4006-95a4-88dd7109c4b6.png">
+<img width="356" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 9 ◦ Comprobar que el hostname de la maquina es correcto login42.
 
-<img width="224" alt="Screen Shot 2022-11-24 at 3 37 27 AM" src="https://user-images.githubusercontent.com/66915274/203681701-4f9b9ff1-28b6-4d06-9489-f930eee4b6e5.png">
+<img width="224" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 
 10 ◦ Modificar hostname para remplazar tu login por el del evaluador. En este caso lo reemplazare por student42.
 
 ```sudo nano /etc/hostname``` y remplazamos nuestro login por el nuevo.
 
-<img width="445" alt="Screen Shot 2022-11-24 at 3 42 30 AM" src="https://user-images.githubusercontent.com/66915274/203682323-dfd14846-9c98-48d0-9c83-56739de3220b.png">
+<img width="445" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="525" alt="Screen Shot 2022-11-24 at 3 43 47 AM" src="https://user-images.githubusercontent.com/66915274/203682470-598a9dbf-ef28-4ef5-86cf-8caeef083ec3.png">
+<img width="525" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ```sudo nano /etc/hosts``` y remplazamos nuestro login por el nuevo.
 
-<img width="418" alt="Screen Shot 2022-11-24 at 3 44 08 AM" src="https://user-images.githubusercontent.com/66915274/203682512-5dd1452d-a704-466b-b9e1-89aa472fada6.png">
+<img width="418" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="512" alt="Screen Shot 2022-11-24 at 3 44 35 AM" src="https://user-images.githubusercontent.com/66915274/203682562-36741000-6203-4a98-9de7-53afb24d6ea2.png">
+<img width="512" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Reiniciamos la maquina.
 
-<img width="358" alt="Screen Shot 2022-11-24 at 3 44 58 AM" src="https://user-images.githubusercontent.com/66915274/203682614-60b10a36-c5d9-478b-a119-73e32a87b7fb.png">
+<img width="358" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Una vez nos hemos logueado de nuevo podemos ver como el hostname se ha cambiado correctamente.
 
-<img width="263" alt="Screen Shot 2022-11-24 at 3 46 30 AM" src="https://user-images.githubusercontent.com/66915274/203682819-bd35ff17-3810-4644-9c44-93957e41d181.png">
+<img width="263" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 11 ◦ Comprobar que todas las particiones son como indica el subject.
 
 ```lsblk```
 
-<img width="495" alt="Screen Shot 2022-11-24 at 3 52 17 AM" src="https://user-images.githubusercontent.com/66915274/203683496-b49a7ada-2a0c-4f87-a013-e307370b3900.png">
+<img width="495" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 12 ◦ Comprobar que sudo esta instalado.
 
 ```which sudo```
 
-<img width="275" alt="Screen Shot 2022-11-24 at 4 00 42 AM" src="https://user-images.githubusercontent.com/66915274/203684520-1340d8dc-1b13-4828-9056-2631e659ddcf.png">
+<img width="275" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Utilizar which realmente no es una buena practica ya que no todos los paquetes se encuentran en las rutas donde which busca, aun asi para la evaluacion es mejor ya que es un comando sencillo y facil de aprender. Para un mejor uso haremos uso del siguiente comando:
 
 ```dpkg -s sudo```
 
-<img width="789" alt="Screen Shot 2022-11-24 at 4 02 13 AM" src="https://user-images.githubusercontent.com/66915274/203684698-d66c3c5b-2d6b-43c5-8f63-1a3cddaf7b4d.png">
+<img width="789" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 13 ◦ Introducimos el nuevo usuario dentro del grupo sudo.
 
 ```sudo adduser name_user sudo```
 
-<img width="468" alt="Screen Shot 2022-11-24 at 5 02 24 AM" src="https://user-images.githubusercontent.com/66915274/203691378-2f2f5309-e650-486e-9cd6-cae4dec2ffa6.png">
+<img width="468" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Comprobamos que esta dentro del grupo.
 
- <img width="415" alt="Screen Shot 2022-11-24 at 5 02 39 AM" src="https://user-images.githubusercontent.com/66915274/203691402-6b84f333-10f7-4908-8255-652613afeede.png">
+ <img width="415" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 14 ◦ Muestra la aplicación de las reglas impuestas para sudo por el subject.
 
-<img width="503" alt="Screen Shot 2022-11-24 at 5 12 02 AM" src="https://user-images.githubusercontent.com/66915274/203692615-bc1ec51c-ae5f-444f-9577-39b01112c969.png">
+<img width="503" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="762" alt="Screen Shot 2022-11-24 at 5 12 17 AM" src="https://user-images.githubusercontent.com/66915274/203692638-e6de6cba-ad42-48b9-ac84-21e2b8c50563.png">
+<img width="762" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 15 ◦ Muestra que la ruta /var/log/sudo/ existe y contiene almenos un fichero, en este se debería ver un historial de los comandos utilizados con sudo.
 
-<img width="295" alt="Screen Shot 2022-11-24 at 5 17 54 AM" src="https://user-images.githubusercontent.com/66915274/203693244-39cb5903-7934-4f8a-8c39-f4ad94d305fb.png">
+<img width="295" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="643" alt="Screen Shot 2022-11-24 at 5 19 07 AM" src="https://user-images.githubusercontent.com/66915274/203693358-b8a2832e-a80d-4304-b3be-43680ab9ba6d.png">
+<img width="643" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Ejecuta un comando con sudo y comprueba que se actualiza el fichero.
 
-<img width="439" alt="Screen Shot 2022-11-24 at 5 23 08 AM" src="https://user-images.githubusercontent.com/66915274/203693791-21697c05-5087-4494-92ed-56ef9680f9fc.png">
+<img width="439" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
-<img width="661" alt="Screen Shot 2022-11-24 at 5 23 21 AM" src="https://user-images.githubusercontent.com/66915274/203693816-be7f7b83-d492-4d01-89cf-abff01d07d96.png">
+<img width="661" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 16 ◦ Comprueba que el programa UFW esta instalado en la maquina virtual y comprueba que funciona correctamente.
 
 ```dpkg -s ufw```
 
-<img width="730" alt="Screen Shot 2022-11-24 at 5 24 47 AM" src="https://user-images.githubusercontent.com/66915274/203693974-9e37e6d4-13a1-45b9-bb0d-03960a072694.png">
+<img width="730" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ```sudo service ufw status```
 
-<img width="704" alt="Screen Shot 2022-11-24 at 5 25 49 AM" src="https://user-images.githubusercontent.com/66915274/203694095-3bcf3a2e-04b8-4d63-a55c-b1e952e52dad.png">
+<img width="704" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 17 ◦ Lista las reglas activas en UFW si no esta hecha la parte bonus solo debe aparecer la regla para el puerto 4242.
 
 ```sudo ufw status numbered```
 
-<img width="500" alt="Screen Shot 2022-11-24 at 5 27 50 AM" src="https://user-images.githubusercontent.com/66915274/203694334-08b7791e-c7b6-4325-be60-7dc4e0257411.png">
+<img width="500" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 18 ◦ Crea una nueva regla para el puerto 8080. Comprueba que se ha añadido a las reglas activas y acto seguido puedes borrarla.
 
 ```sudo ufw allow 8080``` para crearla
 
-<img width="327" alt="Screen Shot 2022-11-24 at 5 31 35 AM" src="https://user-images.githubusercontent.com/66915274/203694718-09ae8097-e636-477d-bdc7-2d45ce892b72.png">
+<img width="327" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ```sudo ufw status numbered```
 
-<img width="473" alt="Screen Shot 2022-11-24 at 5 31 59 AM" src="https://user-images.githubusercontent.com/66915274/203694782-4f70c4a5-0de2-41ea-aba7-b1887e1fd517.png">
+<img width="473" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Para borrar la regla debemos utilizar el comando ```sudo ufw delete num_rule```
 
-<img width="308" alt="Screen Shot 2022-11-24 at 5 33 15 AM" src="https://user-images.githubusercontent.com/66915274/203694914-82ae09cc-7e96-47db-b5ea-89e496f57db6.png">
+<img width="308" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Comprobamos que se ha eliminado y vemos el numero de la siguiente regla que hay que borrar.
 
-<img width="467" alt="Screen Shot 2022-11-24 at 5 33 41 AM" src="https://user-images.githubusercontent.com/66915274/203694968-623554d2-f9c6-42db-aa34-c3c627b45f8e.png">
+<img width="467" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Borramos de nuevo la regla.
 
-<img width="308" alt="Screen Shot 2022-11-24 at 5 34 03 AM" src="https://user-images.githubusercontent.com/66915274/203695003-deccc02f-ffc9-445a-a202-48b57cb66545.png">
+<img width="308" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Comprobamos que solo nos quedan las reglas requeridas en el subject.
 
-<img width="461" alt="Screen Shot 2022-11-24 at 5 34 11 AM" src="https://user-images.githubusercontent.com/66915274/203695013-6b9ff40b-d23f-4a95-9694-f4e73e17f252.png">
+<img width="461" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 19 ◦ Comprueba que el servicio ssh esta instalado en la maquina virtual, que funciona correctamente y que solo funciona por el puerto 4242.
 
 ```which ssh```
 
-<img width="235" alt="Screen Shot 2022-11-24 at 5 37 25 AM" src="https://user-images.githubusercontent.com/66915274/203695373-c1cf2aca-15d5-4e7d-8c13-6e327824ae2c.png">
+<img width="235" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ```sudo service ssh status```
 
-<img width="616" alt="Screen Shot 2022-11-24 at 5 40 34 AM" src="https://user-images.githubusercontent.com/66915274/203695746-b8a3235d-6084-40c6-8cc0-83e78d0b497c.png">
+<img width="616" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 20 ◦ Usa ssh para iniciar sesión con el usuario recién creado. Asegurate de que no puede usar ssh con el usuario root.
 
 Intentamos conectarnos por ssh con el usuario root pero no tenemos permisos.
 
-<img width="1377" alt="Screen Shot 2022-11-24 at 5 44 07 AM" src="https://user-images.githubusercontent.com/66915274/203696165-f1107b33-0c7e-4cce-8d04-56b845637ec8.png">
+<img width="1377" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Nos conectamos por ssh con el nuevo usuario con el comando ```ssh newuser@localhost -p 4242```
 
-<img width="1384" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/203696612-f2c98ebf-be55-4830-b5ea-b0ac98de7c65.png">
+<img width="1384" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 21 ◦ Modifica el tiempo de ejecución del script de 10 minutos a 1.
 
 Ejecutamos el siguiente comando para asi modificar el fichero crontab ```sudo crontab -u root -e```
 
-<img width="455" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/203701854-956c27de-367f-4b54-b21f-8a892d4891d4.png">
+<img width="455" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 Modificamos el primer paramentro , en vez de 10 lo cambiamos a 1.
 
-<img width="638" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/203701944-393bd687-8b9c-4643-9d59-4789361e314d.png">
+<img width="638" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 22 ◦ Finalmente haz que el script deje de ejecutarse cuando el servidor se haya iniciado, pero sin modificar el script.
 
 ```sudo /etc/init.d/cron stop```
 
-<img width="483" alt="CapturaxxxM" src="https://user-images.githubusercontent.com/66915274/203807610-d87124f2-47ca-4546-8037-b904e8bcf5d1.png">
+<img width="483" alt="CapturaxxxM" src="imgReadme/imgxxx.png">
 
 Si queremos que vuelva a ejecutarse:
 
 ```sudo /etc/init.d/cron start```
 
-<img width="483" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/203807970-8fc69a39-6d10-4e64-9be1-eb49c4bf95f8.png">
+<img width="483" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 ## 10- Tester 🆗
 
@@ -1631,7 +1634,7 @@ Comprueba que no te hayas dejado nada! Tester propio para checkear que la instal
 
 [AQUÍ](https://github.com/gemartin99/Born2beroot-Tester)
 
-<img width="440" alt="Capturaxxx" src="https://user-images.githubusercontent.com/66915274/223902066-f2f6a059-9df8-4e32-a92a-14c43ff8fb0f.png">
+<img width="440" alt="Capturaxxx" src="imgReadme/imgxxx.png">
 
 # Contacto 📥
 
