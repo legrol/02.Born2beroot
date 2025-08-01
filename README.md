@@ -246,11 +246,11 @@ Volvemos a poner el nombre de usuario.
 
 ➤ Debemos introducir la contraseña de encriptación que utilizamos previamente. En mi caso es ```Hello42bcn```.
 
-<img width="714" alt="Captura46" src="imgReadme/xxx.png">
+<img width="714" alt="Captura46" src="imgReadme/img46.png">
 
 ➤ Debemos introducir el usuario y contraseña que hemos creado. En mi caso el usuario es ```gemartin``` y la contraseña ```Hola42spain```.
 
-<img width="798" alt="Captura47" src="imgReadme/xxx.png">
+<img width="798" alt="Captura47" src="imgReadme/img47.png">
 
 ### Ya tenemos todo listo para empezar a configurar nuestra máquina virtual Debian❗️
 
@@ -258,23 +258,23 @@ Volvemos a poner el nombre de usuario.
 
 1 ◦ Para la instalación de sudo primero debemos estar en el usuario root, para ello pondremos ```Su``` en el terminal y introduciremos la contraseña, en mi caso es ```Hola42bcn```. Una vez hemos accedido al usuario root debemos poner el comando ```apt install sudo``` para así instalar los paquetes necesarios.
 
-<img width="796" alt="Captura48" src="imgReadme/xxx.png">
+<img width="796" alt="Captura48" src="imgReadme/img48.png">
 
 2 ◦ Debemos reiniciar la máquina para que se apliquen los cambios. Para ello haremos uso del comando ```sudo reboot``` y esperaremos a que se reinicie. 
 
-<img width="514" alt="Captura49" src="imgReadme/xxx.png">
+<img width="514" alt="Captura49" src="imgReadme/img49.png">
 
 3 ◦ Una vez reiniciado debemos volver a introducir las contraseñas de cifrado y del usuario. Para verificar que hayamos instalado ```sudo``` correctamente entraremos de nuevo en el usuario root y pondremos el comando ```sudo -V```, este comando además de mostrarnos la versión de sudo también mostrará los argumentos pasados para configurar cuando se creó sudo y los plugins que  pueden mostrar información más detallada. (Opcional) ➤ Puesto que el output del comando es muy largo si deseamos verlo completamente debemos redireccionar la salida del mismo a un fichero ```sudo -V > file.txt``` y luego editar el fichero ```nano file.txt```. O poner ```| more``` despues del comando.
 
-<img width="799" alt="Captura50" src="imgReadme/xxx.png">
+<img width="799" alt="Captura50" src="imgReadme/img50.png">
 
 4 ◦ Siguiendo en el usuario root crearemos un usuario con nuestro login con el comando ```sudo adduser login``` como nostros ya hemos creado el usuario en la instalación nos debe aparecer que el usuario ya existe.
 
-<img width="509" alt="Captura51" src="imgReadme/xxx.png">
+<img width="509" alt="Captura51" src="imgReadme/img51.png">
 
 5 ◦ Ahora deberemos crear un nuevo grupo llamado ```user42```. Para crearlo debemos hacer ```sudo addgroup user42```. 
 
-<img width="367" alt="Captura52" src="https://user-images.githubusercontent.com/66915274/198082677-d393243e-363a-4d1f-95d8-a6695336a47a.png">
+<img width="367" alt="Captura52" src="imgReadme/img52.png">
 
 🧠 <b>Que es GID❓</b> Es el identificador de grupo, es una abreviatura de Group 🆔.
 
@@ -282,19 +282,19 @@ Volvemos a poner el nombre de usuario.
 
 6 ◦ Con el comando ```sudo adduser user group``` incluiremos al usuario en el grupo. Debemos incluir al usuario en los grupos ```sudo``` y ```user42```.
 
-<img width="422" alt="Screen Shot 2022-10-26 at 6 32 30 PM" src="https://user-images.githubusercontent.com/66915274/198083019-c5a442bb-c625-45ce-84e1-bcbca3a7dba5.png">
+<img width="422" alt="Captura53" src="imgReadme/img53.png">
 
-<img width="404" alt="Screen Shot 2022-10-26 at 6 34 09 PM" src="https://user-images.githubusercontent.com/66915274/198083377-bd4162c6-317b-474f-8bc4-e542be4dcfde.png">
+<img width="404" alt="Captura54" src="imgReadme/img54.png">
 
 7 ◦ Una vez los hayamos introducido para checkear que todo se haya hecho correctamente podemos ejecutar el comando ```getent group nombre_grupo``` o tambien podemos editar el fichero /etc/group ```nano /etc/group``` y en los grupos ```sudo``` y ```login42``` debera aparecer nuestro usuario.
 
-<img width="328" alt="Screen Shot 2022-10-26 at 6 35 50 PM" src="https://user-images.githubusercontent.com/66915274/198083739-ad16e388-69c3-41d1-a061-e55dd66b0d14.png">
+<img width="328" alt="Captura55" src="imgReadme/img55.png">
 
-<img width="151" alt="Screen Shot 2022-10-26 at 6 36 18 PM" src="https://user-images.githubusercontent.com/66915274/198083854-0fba5296-a49f-44cc-8427-59a692e69288.png">
+<img width="151" alt="Captura56" src="imgReadme/img56.png">
 
-<img width="353" alt="Screen Shot 2022-10-26 at 6 39 22 PM" src="https://user-images.githubusercontent.com/66915274/198084464-f73352ee-ed21-478b-a44d-d86eb6d8a1cd.png">
+<img width="353" alt="Captura57" src="imgReadme/img57.png">
 
-<img width="183" alt="Screen Shot 2022-10-26 at 6 38 25 PM" src="https://user-images.githubusercontent.com/66915274/198084311-45a50162-ff89-4e7d-a3c5-45e7048520a4.png">
+<img width="183" alt="Captura58" src="imgReadme/img58.png">
 
 ### 4.2 - Instalación y configuración SSH 📶
 
@@ -302,45 +302,45 @@ Volvemos a poner el nombre de usuario.
 
 1 ◦ Lo primero que haremos será hacer ```sudo apt update``` para actualizar los repositorios que definimos en el archivo /etc/apt/sources.list
 
-<img width="774" alt="Captura de pantalla 2022-07-14 a las 3 09 44" src="https://user-images.githubusercontent.com/66915274/178864173-aa5a08cf-8562-4484-a60a-3e1c7a533a28.png">
+<img width="774" alt="Captura59" src="imgReadme/img59.png">
 
 2 ◦ Acto seguido instalaremos la herramienta principal de conectividad para el inicio de sesión remoto con el protocolo SSH, esta herramienta es OpenSSH. Para instalarla debemos introducir el comando ```sudo apt install openssh-server```. En el mensaje de confirmación ponemos ```Y```, acto seguido esperaremos a que termine la instalación.
 
-<img width="772" alt="Captura de pantalla 2022-07-14 a las 3 14 52" src="https://user-images.githubusercontent.com/66915274/178865991-cdb90f12-ebd8-4583-bcbb-70f47c86abe6.png">
+<img width="772" alt="Captura60" src="imgReadme/img60.png">
 
 Para comprobar que se haya instalado correctamente haremos ```sudo service ssh status``` y nos debe aparecer active.
 
-<img width="702" alt="Captura de pantalla 2022-07-14 a las 3 53 59" src="https://user-images.githubusercontent.com/66915274/178876938-7fd74214-15df-4759-bf8d-52b53a8f4251.png">
+<img width="702" alt="Captura61" src="imgReadme/img61.png">
 
 3 ◦ Una vez terminada la instalación se han creado algunos ficheros que debemos configurar. Para ello utilizaremos [Nano](https://es.wikipedia.org/wiki/GNU_Nano) o si tu lo prefieres otro editor de texto. El primer fichero que editaremos será ```/etc/ssh/sshd_config```. Si no estas desde el usuario root no tendrás permisos de escritura, para ello haremos ```su``` y ponemos la contraseña para entrar al usuario root o si no quieres entrar en el usuario root ponemos sudo al principio del comando ```sudo nano /etc/ssh/sshd_config```.
 
-<img width="497" alt="Captura de pantalla 2022-07-14 a las 3 24 21" src="https://user-images.githubusercontent.com/66915274/178867150-273c75c1-c935-45f0-a551-1a115d3f6f6a.png">
+<img width="497" alt="Captura62" src="imgReadme/img62.png">
 
 4 ◦ Los ```#``` al comienzo de una línea significan que esta comentada, las líneas que vayamos a modificar deberás quitarle el comentario. Una vez estemos editando el fichero deberemos modificar las siguientes líneas:
 
 ➤ #Port 22 -> Port 4242
 
-<img width="807" alt="Captura de pantalla 2022-07-14 a las 3 31 04" src="https://user-images.githubusercontent.com/66915274/178867929-0f8be11e-d0ca-4445-af05-a693d01411bd.png">
+<img width="807" alt="Captura63" src="imgReadme/img63.png">
 
 ➤ #PermitRootLogin prohibit-password -> PermitRootLogin no
 
-<img width="798" alt="Captura de pantalla 2022-07-14 a las 3 34 13" src="https://user-images.githubusercontent.com/66915274/178868266-fc6d6684-8196-4021-b884-a047a443a3ec.png">
+<img width="798" alt="Captura64" src="imgReadme/img64.png">
 
 Una vez hayamos modificado esas líneas debemos guardar los cambios realizados sobre el fichero y dejar de editarlo.
 
 5 ◦ Ahora debemos editar el fichero ```/etc/ssh/ssh_config```.
 
-<img width="501" alt="Captura de pantalla 2022-07-14 a las 3 48 56" src="https://user-images.githubusercontent.com/66915274/178872582-8277e687-8ab7-4087-bd17-a71e5e86d5e6.png">
+<img width="501" alt="Captura65" src="imgReadme/img65.png">
 
 Editaremos la siguiente línea: 
 
 ➤ #Port 22 -> Port 4242
 
-<img width="795" alt="Captura de pantalla 2022-07-14 a las 3 50 29" src="https://user-images.githubusercontent.com/66915274/178875013-1969c13f-9e43-4f2a-a037-f384a8e87a78.png">
+<img width="795" alt="Captura66" src="imgReadme/img66.png">
 
 6 ◦ Por último debemos reiniciar el servicio ssh para que así se actualicen las modificaciones que acabamos de realizar. Para ello debemos escribir el comando ```sudo service ssh restart``` y una vez reseteado miraremos el estado actual con ```sudo service ssh status``` y para confirmar que se hayan realizado los cambios en la escucha del servidor debe aparecer el Puerto 4242.
 
-<img width="713" alt="Captura de pantalla 2022-07-14 a las 3 56 56" src="https://user-images.githubusercontent.com/66915274/178880333-0e2ad7fd-674b-4b4f-b92a-25acbc36c8a5.png">
+<img width="713" alt="Captura67" src="imgReadme/xxx.png">
 
 
 ### 4-3 Instalació y configuración de UFW 🔥🧱
@@ -349,35 +349,35 @@ Editaremos la siguiente línea:
 
 1 ◦ Lo primero que debemos hacer el instalar UFW, para ello haremos uso del comando ```sudo apt install ufw``` acto seguido escribiremos una ```y``` para confirmar que deseamos instalarlo y esperaremos a que termine.
 
-<img width="771" alt="Captura de pantalla 2022-07-14 a las 19 28 55" src="https://user-images.githubusercontent.com/66915274/179045920-4a9aec64-b1d7-4785-89a1-4a299aae21a3.png">
+<img width="771" alt="Capturaxx" src="imgReadme/xxx.png">
 
-<img width="802" alt="Captura de pantalla 2022-07-14 a las 19 29 25" src="https://user-images.githubusercontent.com/66915274/179045994-19cdf6e0-be61-454b-9adc-ba1f9c2dfd84.png">
+<img width="802" alt="Capturaxx" src="imgReadme/xxx.pngg">
 
 2 ◦ Una vez instalado debemos habilitarlo , para ello debemos poner el siguiente comando ```sudo ufw enable``` y acto seguido nos debe indicar que el firewall esta activo.
 
-<img width="498" alt="Captura de pantalla 2022-07-14 a las 19 32 57" src="https://user-images.githubusercontent.com/66915274/179046565-307c042b-243e-4224-bcb2-d02859332352.png">
+<img width="498" alt="Capturaxx" src="imgReadme/xxx.png">
 
 3 ◦ Ahora lo que debemos hacer es que nuestro firewall permita las conexiones que se lleven a cabo mediante el puerto 4242. Lo haremos con el siguiente comando ```sudo ufw allow 4242```.
 
-<img width="514" alt="Captura de pantalla 2022-07-14 a las 19 34 12" src="https://user-images.githubusercontent.com/66915274/179046765-5277ec55-b8e4-4d4f-a617-a2a8758b80a8.png">
+<img width="514" alt="Capturaxx" src="imgReadme/xxx.png">
 
 4 ◦ Por último comprobaremos que esta todo correctamente configurado mirando el estado de nuestro cortafuegos , en donde ya debe aparecer como permitidas las conexiones mediante el puerto 4242. Para ver el estado daremos uso del comando ```sudo ufw status```.
 
-<img width="575" alt="Captura de pantalla 2022-07-14 a las 19 38 37" src="https://user-images.githubusercontent.com/66915274/179047574-8073045c-6e78-4b6f-8487-cb0f490a2cd0.png">
+<img width="575" alt="Capturaxx" src="imgReadme/xxx.png">
 
 ### 4-4 Configurar contraseña fuerte para sudo 🔒
 
 1 ◦ Crearemos un fichero en la ruta /etc/sudoers.d/ a mi fichero yo le he decidido llamar sudo_config ya que en ese fichero se almacenará la configuración de la contraseña. El comando exacto para crear el fichero es ```touch /etc/sudoers.d/sudo_config```.
 
-<img width="511" alt="Captura de pantalla 2022-07-14 a las 22 00 40" src="https://user-images.githubusercontent.com/66915274/179072822-2f86bd8b-216e-45e4-a15b-8fe3a49149ff.png">
+<img width="511" alt="Capturaxx" src="imgReadme/xxx.png">
 
 2 ◦ Debemos crear el directorio sudo en la ruta /var/log porque cada comando que ejecutemos con sudo , tanto el input como el output debe quedar almacenado en ese directorio. Para crearlo utilizaremos el comando ```mkdir /var/log/sudo```.
 
-<img width="502" alt="Captura de pantalla 2022-07-14 a las 21 56 53" src="https://user-images.githubusercontent.com/66915274/179072210-ad99e50d-fa57-494b-999d-3a80dd0f7849.png">
+<img width="502" alt="Capturaxx" src="imgReadme/xxx.png">
 
 3 ◦ Debemos editar el fichero creado en el paso 1. Como he comentado anteriormente puedes utilizar el editor que mas te guste , pero yo dare uso de nano. Comando para editar el fichero:  ```nano /etc/sudoers.d/sudo_config```.
 
-<img width="502" alt="Captura de pantalla 2022-07-14 a las 22 04 10" src="imgReadme/xxx.png">
+<img width="502" alt="Capturaxx" src="imgReadme/xxx.png">
 
 4 ◦ Una vez estamos editando el fichero deberemos introducir los siguientes comandos para cumplir todos los requisitos que pide el subject.
 
@@ -393,17 +393,17 @@ Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/
 
 ➤ Como debería verse el fichero.
 
-<img width="1202" alt="Captura de pantalla 2022-07-16 a las 2 03 45" src="imgReadme/xxx.png">
+<img width="1202" alt="Capturaxx" src="imgReadme/xxx.png">
 
 🤔 <b>Que hace cada comando❓ </b>
 
-<img width="802" alt="Captura de pantalla 2022-07-16 a las 2 04 56" src="imgReadme/xxx.png">
+<img width="802" alt="Capturaxx" src="imgReadme/xxx.png">
 
 ### 4-5 Configuración de política de contraseñas fuerte 🔑
 
 1 ◦ El primer paso será editar el fichero login.defs.
 
-<img width="493" alt="Captura de pantalla 2022-07-16 a las 2 54 06" src="imgReadme/xxx.png">
+<img width="493" alt="Capturaxx" src="imgReadme/xxx.png">
 
 2 ◦ Una vez estemos editando el fichero modificaremos los siguientes parametros: 
 
@@ -412,7 +412,7 @@ Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/
 ➤ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 
 
-<img width="802" alt="Captura de pantalla 2022-07-16 a las 3 05 49" src="imgReadme/xxx.png">
+<img width="802" alt="Capturaxx" src="imgReadme/xxx.png">
 
 PASS_MAX_DAYS: Es el tiempo de expiración de la contraseña. El numero corresponde a días.
 
@@ -422,11 +422,11 @@ PASS_WARN_AGE: El usuario recibira un mensaje de aviso indicando que faltan los 
 
 3 ◦ Para poder seguir con la configuración debemos instalar los siguientes paquetes con este comando ```sudo apt install libpam-pwquality``` , acto seguido pondremos ```Y``` para confirmar la instalación y esperaremos a que termine. 
 
-<img width="770" alt="Captura de pantalla 2022-07-16 a las 3 13 52" src="imgReadme/xxx.png">
+<img width="770" alt="Capturaxx" src="imgReadme/xxx.png">
 
 4 ◦ Lo siguiente que debemos hacer es volver a editar un fichero y modificar algunas líneas. Haremos ```nano /etc/pam.d/common-password```. 
 
-<img width="500" alt="Captura de pantalla 2022-07-16 a las 3 27 02" src="imgReadme/xxx.png">
+<img width="500" alt="Capturaxx" src="imgReadme/xxx.png">
 
 5 ◦ Despues de retry=3 debemos añadir los siguientes comandos:
 
@@ -442,11 +442,11 @@ enforce_for_root
 ```
 ➤ Así debe ser la línea ↙️
 
-<img width="1047" alt="Screen Shot 2023-01-03 at 7 41 57 PM" src="imgReadme/xxx.png">
+<img width="1047" alt="Capturaxx" src="imgReadme/xxx.png">
 
 ➤ Así se debe ver en el fichero ↙️
 
-<img width="800" alt="Captura de pantalla 2022-07-16 a las 3 38 08" src="imgReadme/xxx.png">
+<img width="800" alt="Capturaxx" src="imgReadme/xxx.png">
 
 🤔 <b>Que hace cada comando❓</b>
 
@@ -470,25 +470,25 @@ enforce_for_root ➤ Implementaremos esta política para el usuario root.
 
 1 ◦ Para conectarnos por SSH debemos cerrar la máquina, abrir VirtualBox y darle a configuración.
 
-<img width="832" alt="Captura de pantalla 2022-07-18 a las 10 15 13" src="imgReadme/xxx.png">
+<img width="832" alt="Capturaxx" src="imgReadme/xxx.png">
 
 2 ◦ Una vez en configuración debemos pinchar sobre el apartado de ```Red``` , pincharemos sobre ```Avanzadas``` para que así nos muestre más opciones y le daremos a ```Reenvío de puertos```.
 
-<img width="684" alt="Captura de pantalla 2022-07-18 a las 10 18 32" src="imgReadme/xxx.png">
+<img width="684" alt="Capturaxx" src="imgReadme/xxx.png">
 
 3 ◦ Pincharemos sobre el siguiente emoticono para agregar una regla de reenvío.
 
-<img width="585" alt="Captura de pantalla 2022-07-18 a las 10 21 24" src="imgReadme/xxx.png">
+<img width="585" alt="Capturaxx" src="imgReadme/xxx.png">
 
 4 ◦ Por último agregaremos el puerto ```4242``` al anfitrión y al invitado. Las IP's no son necesarias. Pincharemos sobre el botón de aceptar para que así se apliquen los cambios.
 
-<img width="588" alt="Captura de pantalla 2022-07-18 a las 10 22 29" src="imgReadme/xxx.png">
+<img width="588" alt="Capturaxx" src="imgReadme/xxx.png">
 
 ➤ Para poder conectarnos a la máquina virtual desde la real debemos abrir un terminal en la máquina real y escribir ```ssh gemartin@localhost -p 4242``` nos pedirá la clave del usuario y una vez la introduzcamos ya nos saldrá el login en verde y eso significa que estaremos conectados.
 
-<img width="517" alt="Screen Shot 2022-10-27 at 12 40 23 AM" src="imgReadme/xxx.png">
+<img width="517" alt="Capturaxx" src="imgReadme/xxx.png">
 
-<img width="566" alt="Screen Shot 2022-10-27 at 12 40 04 AM" src="imgReadme/xxx.png">
+<img width="566" alt="Capturaxx" src="imgReadme/xxx.png">
 
 ## 5- Script 🚨
 
