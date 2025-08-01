@@ -912,137 +912,138 @@ Descripción breve de todos los tipos de particiones:
 
 41 ◦ Repetimos el proceso para ```srv```. Solo cambiaremos el nombre.
 
-<img width="446" alt="Captura164" src="imgReadme/imgxxx.png">
+<img width="446" alt="Captura164" src="imgReadme/img164.png">
 
-<img width="754" alt="Captura165" src="imgReadme/imgxxx.png">
+<img width="754" alt="Captura165" src="imgReadme/img165.png">
 
-<img width="671" alt="Captura166" src="imgReadme/imgxxx.png">
+<img width="671" alt="Captura166" src="imgReadme/img166.png">
 
-<img width="771" alt="Captura167" src="imgReadme/imgxxx.png">
+<img width="771" alt="Captura167" src="imgReadme/img167.png">
 
 42 ◦ Repetimos el proceso para ```tmp```. Solo cambiaremos el nombre.
 
-<img width="481" alt="Captura168" src="imgReadme/imgxxx.png">
+<img width="481" alt="Captura168" src="imgReadme/img168.png">
 
-<img width="732" alt="Captura169" src="imgReadme/imgxxx.png">
+<img width="732" alt="Captura169" src="imgReadme/img169.png">
 
-<img width="659" alt="Captura170" src="imgReadme/imgxxx.png">
+<img width="659" alt="Captura170" src="imgReadme/img170.png">
 
-<img width="768" alt="Captura171" src="imgReadme/imgxxx.png">
+<img width="768" alt="Captura171" src="imgReadme/img171.png">
 
 43 ◦ Por último repetimos el proceso para ```var-log```. Solo cambiaremos el nombre y el tamaño.
 
-<img width="448" alt="Captura172" src="imgReadme/imgxxx.png">
+<img width="448" alt="Captura172" src="imgReadme/img172.png">
 
-<img width="762" alt="Captura173" src="imgReadme/imgxxx.png">
+<img width="762" alt="Captura173" src="imgReadme/img173.png">
 
-<img width="658" alt="Captura174" src="imgReadme/imgxxx.png">
+<img width="658" alt="Captura174" src="imgReadme/img174.png">
 
-<img width="779" alt="Captura175" src="imgReadme/imgxxx.png">
+<img width="779" alt="Captura175" src="imgReadme/img175.png">
 
 
 44 ◦ Una vez hayamos completado todos los pasos anteriores finalizaremos la configuración del gestor de volúmenes lógicos.
 
-<img width="438" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="438" alt="Captura176" src="imgReadme/img176.png">
 
 45 ◦ Ahora podemos observar como en el apartado donde nos muestran todas nuestras particiones y espacio libre ya aparecen todas las particiones lógicas que acabamos de crear. Bien , debemos configurar todas para seleccionar el sistema de archivos que queremos y el punto de montaje que indica el subject. De nuevo iremos por orden y seleccionaremos la primera que nos aparece que es ```home```.
 
-<img width="783" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="783" alt="Captura177" src="imgReadme/img177.png">
 
 46 ◦ Nos muestra la configuración de la partición. Debemos escoger un sistema de ficheros ya que actualmente no tiene.
 
-<img width="782" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="782" alt="Captura178" src="imgReadme/img178.png">
 
 47 ◦ Escogemos el sistema de archivos Ext4, es el sistema de archivos más utilizado en distribuciones Linux.  
 
-<img width="412" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="412" alt="Captura179" src="imgReadme/img179.png">
 
 48 ◦ Ahora debemos seleccionar el punto de montaje. 
 
-<img width="782" alt="CapturaxxxM" src="imgReadme/imgxxx.png">
+<img width="782" alt="Captura180" src="imgReadme/img180.png">
 
 49 ◦ Seleccionamos ```home``` como bien indica el subject.
 
-<img width="515" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="515" alt="Captura181" src="imgReadme/img181.png">
 
 50 ◦ Una vez ya lo hemos seleccionado terminaremos la configuración de la partición.
 
-<img width="785" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="785" alt="Captura182" src="imgReadme/img182.png">
 
 51 ◦ De nuevo estos pasos se pueden volver muy repetitivos asique no comentare mucho. Repetimos todo igual (excepto el punto de montaje) para ```root```.
 
-<img width="782" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="782" alt="Captura183" src="imgReadme/img183.png">
 
-<img width="782" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="782" alt="Captura184" src="imgReadme/img184.png">
 
-<img width="421" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="421" alt="Captura185" src="imgReadme/img185.png">
 
-<img width="775" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="775" alt="Captura186" src="imgReadme/img186.png">
 
-<img width="525" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="525" alt="Captura187" src="imgReadme/img187.png">
 
-<img width="790" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="790" alt="Captura188" src="imgReadme/img188.png">
 
 52 ◦ Repetimos el proceso para ```srv``` y cambiaremos el punto de montaje.
 
-<img width="778" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="778" alt="Captura189" src="imgReadme/img189.png">
 
-<img width="778" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="778" alt="Captura190" src="imgReadme/img190.png">
 
-<img width="428" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="428" alt="Captura191" src="imgReadme/img191.png">
 
-<img width="787" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="787" alt="Captura192" src="imgReadme/img192.png">
 
-<img width="530" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="530" alt="Captura193" src="imgReadme/img193.png">
 
-<img width="790" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="790" alt="Captura194" src="imgReadme/img194.png">
 
 53 ◦ Para ```swap``` haremos una excepción ya el sistema de archivos será diferente. Seleccionamos ```swap```.
 
-<img width="780" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="780" alt="Captura195" src="imgReadme/img195.png">
 
 54 ◦ En el momento de seleccionar el sistema de archivos lo dejamos en ```swap area```.
 
-<img width="785" alt="CapturaxxxM" src="imgReadme/imgxxx.png">
+<img width="785" alt="Captura196" src="imgReadme/img196.png">
 
 55 ◦ Una vez realizado el paso anterior terminaremos la configuración de la partición.
 
-<img width="370" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="370" alt="Captura197" src="imgReadme/img197.png">
 
-<img width="787" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="787" alt="Captura198" src="imgReadme/img198.png">
 
 56 ◦ Ahora si volveremos a hacer lo mismo que antes pero ahora lo haremos con ```tmp``` y cambiando el punto de montaje.
 
-<img width="777" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="777" alt="Captura199" src="imgReadme/img199.png">
 
-<img width="778" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="778" alt="Captura200" src="imgReadme/img200.png">
 
-<img width="372" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="372" alt="Captura201" src="imgReadme/img201.png">
 
-<img width="781" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="781" alt="Captura202" src="imgReadme/img202.png">
 
-<img width="496" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="496" alt="Captura203" src="imgReadme/img203.png">
 
-<img width="783" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="783" alt="Captura204" src="imgReadme/img204.png">
 
 57 ◦ Repetimos de nuevo el proceso para ```var``` cambiando el punto de montaje.
 
-<img width="773" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="773" alt="Captura205" src="imgReadme/img205.png">
 
-<img width="790" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="790" alt="Captura206" src="imgReadme/img206.png">
 
-<img width="386" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="386" alt="Captura207" src="imgReadme/img207.png">
 
-<img width="780" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="780" alt="Captura208" src="imgReadme/img208.png">
 
-<img width="515" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="515" alt="Captura209" src="imgReadme/img209.png">
 
-<img width="779" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="779" alt="Captura210" src="imgReadme/img210.png">
 
 58 ◦ Por último repetimos de nuevo el proceso para ```var-log``` en este deberemos introducir manualmente el punto de montaje.
 
-<img width="772" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="772" alt="Captura211" src="imgReadme/img211.png">
 
+<!-->
 ![image](https://user-images.githubusercontent.com/66915274/197602511-fa34155b-3244-4b0c-8054-2778edecfb16.png)
 
 ![image](https://user-images.githubusercontent.com/66915274/197602585-03b540af-5d7a-4364-b90a-559bac0cb2a2.png)
@@ -1054,6 +1055,19 @@ Descripción breve de todos los tipos de particiones:
 ![image](https://user-images.githubusercontent.com/66915274/197602699-fddadd2d-c54d-4313-8165-a93db1249b26.png)
 
 ![image](https://user-images.githubusercontent.com/66915274/197602741-431bd866-1558-4735-bb34-ab57dc5745b7.png)
+-->
+
+<img width="770" alt="Captura212" src="imgReadme/img212.png">
+
+<img width="770" alt="Captura213" src="imgReadme/img213.png">
+
+<img width="770" alt="Captura214" src="imgReadme/img214.png">
+
+<img width="770" alt="Captura215" src="imgReadme/img215.png">
+
+<img width="770" alt="Captura216" src="imgReadme/img216.png">
+
+<img width="770" alt="Captura217" src="imgReadme/img217.png">
 
 59 ◦ Una vez hemos completado todos los pasos anteriores ya casi hemos acabado, debemos darle a finalizar el particionado y asi se guarden todos los cambios en el disco.
 
