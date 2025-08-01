@@ -50,16 +50,16 @@ Para realizar la instalación se requiere de un software de virtualización. En 
 
 1 ◦ Debemos abrir VirtualBox y pinchar sobre ```Nueva```
 
-<img width="836" alt="Captura1" src="imgReadme/img1.png">
+<img width="836" alt="Captura1" src="imgReadme/Img1.png">
 
 2 ◦ Escogemos el nombre de nuestra máquina y la carpeta donde estará ubicada. Importante introducir la maquina dentro de la carpeta sgoinfre ya que si no la ubicamos ahí nos quedaremos sin espacio y fallará la instalación (dependiendo del campus la ruta de sgoinfre puede cambiar). 
 
-<img width="694" alt="Captura2" src="imgReadme/img2.png">
+<img width="694" alt="Captura2" src="imgReadme/Img2.png">
 
 
 3 ◦ Seleccionamos la cantidad de memoria RAM que reservaremos para la máquina. 
 
-<img width="685" alt="Captura3" src="imgReadme/img3.png">
+<img width="685" alt="Captura3" src="imgReadme/Img3.png">
 
 4 ◦ Seleccionamos la segunda opción para asi crear un disco duro virtual ahora.
 
