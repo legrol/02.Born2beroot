@@ -1071,47 +1071,55 @@ Descripción breve de todos los tipos de particiones:
 
 59 ◦ Una vez hemos completado todos los pasos anteriores ya casi hemos acabado, debemos darle a finalizar el particionado y asi se guarden todos los cambios en el disco.
 
+<!--
 ![image](https://user-images.githubusercontent.com/66915274/197602907-4a3ba459-1a5d-468e-81dc-5206403cf034.png)
+-->
+
+<img width="770" alt="Captura218" src="imgReadme/img218.png">
 
 60 ◦ Aceptamos el mensaje y asi se guardaran los cambios. Asegurate que todas las particiones quedan igual que en la captura.
 
+<!--
 ![image](https://user-images.githubusercontent.com/66915274/197602944-13ca67b2-bcc5-476c-84dc-aadc5e1d3baf.png)
+-->
+
+<img width="770" alt="Captura219" src="imgReadme/img219.png">
 
 61 ◦ Seleccionamos la opción ```No``` ya que no necesitamos paquetes adicionales. 
 
-<img width="770" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="770" alt="Captura220" src="imgReadme/img220.png">
 
 62 ◦ Escogemos nuestro País.
 
-<img width="756" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="756" alt="Captura221" src="imgReadme/img221.png">
 
 63 ◦ Escogemos ```deb.debian.org``` ya que tenindo en cuenta nuestra region es donde tendremos una mejor conexión.
 
-<img width="792" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="792" alt="Captura222" src="imgReadme/img222.png">
 
 64 ◦ Esta opción la dejaremos vacía le daremos directamente a ```Continue```.
 
-<img width="797" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="797" alt="Captura223" src="imgReadme/img223.png">
 
 65 ◦ Seleccionamos la opcion ```No``` ya que no queremos que los developers vean nuestras estadísticas aunque sean anónimas.
 
-<img width="796" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="796" alt="Captura224" src="imgReadme/img224.png">
 
 66 ◦ Quitaremos todas las opciones de software (con la barra espaciadora) y le daremos a ```Continue```.
 
-<img width="797" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="797" alt="Captura225" src="imgReadme/img225.png">
 
 67 ◦ Seleccionaremos ```Yes``` para instalar [GRUB boot](https://es.wikipedia.org/wiki/GNU_GRUB) en el disco duro.
 
-<img width="792" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="792" alt="Captura226" src="imgReadme/img226.png">
 
 68 ◦ Escogeremos el dispositivo para la instalación del cargador de arranque ```/dev/sda (ata_VBOX_HARDDISK)```.
 
-<img width="792" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="792" alt="Captura227" src="imgReadme/img227.png">
 
 69 ◦ Le daremos a ```Continue``` para finalizar la instalación. 
 
-<img width="794" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="794" alt="Captura228" src="imgReadme/img228.png">
 
 70 ◦ Una vez hemos terminado con la instalación de debian debemos configurar nuestra máquina virtual.
 
@@ -1125,7 +1133,7 @@ Descripción breve de todos los tipos de particiones:
 
 1 ◦ Instalación de paquetes de lighttpd.
 
-<img width="791" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="791" alt="Captura229" src="imgReadme/img229.png">
 
 2 ◦ Permitimos las conexiones mediante el puerto 80 con el comando ```sudo ufw allow 80```.
 
