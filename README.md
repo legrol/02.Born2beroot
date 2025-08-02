@@ -5,9 +5,9 @@
 
 Esta guía esta basada integramente en el trabajo previo realizado por gemartin99. Por ello, si la guía te sirve de ayuda, es de recibo ponerle una estrella a gemartin99 en su github, y de agradecer ponerme otra en mi espacio, por el trabajo de recomponerla.
 
-[AQUÍ](https://github.com/gemartin99/42cursus)
+GitHun de gemartin99 para darle Star => [![GitHub](https://img.shields.io/badge/GitHub-Profile-informational?style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/gemartin99/Born2beroot-Tutorial)
 
-Asimismo, no te ciñas a olo seguir los pasos de la misma, interioriza y entiende el porque de cada uno de ellos, para adquirir la base pretendida con este proyecto.
+Asimismo, no te ciñas a solo seguir los pasos de la misma Interioriza y entiende el porque de cada uno de ellos, para adquirir la base pretendida con este proyecto.
 
 # Índice
 
@@ -1683,3 +1683,8 @@ Comprueba que no te hayas dejado nada! Tester propio para checkear que la instal
 
 <img width="440" alt="Captura329" src="imgReadme/img329.png">
 
+![Perfil](https://img.shields.io/badge/Autor-red?style=for-the-badge)
+
+- Roberto del Olmo Lima
+- [![GitHub](https://img.shields.io/badge/GitHub-Profile-informational?style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/legrol)
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roberto-del-olmo-731746245)
