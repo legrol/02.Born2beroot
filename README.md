@@ -1,5 +1,14 @@
 # Born2beroot-Tutorial 🖥🇪🇸
 
+
+## Sobre este tutorial
+
+Esta guía esta basada integramente en el trabajo previo realizado por gemartin99. Por ello, si la guía te sirve de ayuda, es de recibo ponerle una estrella a gemartin99 en su github, y de agradecer ponerme otra en mi espacio, por el trabajo de recomponerla.
+
+[AQUÍ](https://github.com/gemartin99/42cursus)
+
+Asimismo, no te ciñas a olo seguir los pasos de la misma, interioriza y entiende el porque de cada uno de ellos, para adquirir la base pretendida con este proyecto.
+
 # Índice
 
 1. [Descargar imagen de la maquina virtual 💿](#1--descargar-imagen-de-la-maquina-virtual-)
@@ -1137,15 +1146,15 @@ Descripción breve de todos los tipos de particiones:
 
 2 ◦ Permitimos las conexiones mediante el puerto 80 con el comando ```sudo ufw allow 80```.
 
-<img width="306" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="306" alt="Captura230" src="imgReadme/img230.png">
 
 3 ◦ Checkeamos que realmente hayamos permitido. Debe aparecer el puerto 80 y allow.
 
-<img width="460" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="460" alt="Captura231" src="imgReadme/img231.png">
 
 4 ◦ Añadimos la regla que incluya el puerto 80. Si no recuerdas como se añadian reglas en el reenvío de puertos. Configuración de la máquina → Red → Reenvío de puertos → Replicar la captura.
 
-<img width="877" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="877" alt="Captura232" src="imgReadme/img232.png">
 
 ### WordPress 
 
@@ -1157,31 +1166,31 @@ Descripción breve de todos los tipos de particiones:
 
 🧠 <b> Que es zip❓</b> Es una utilidad de línea de comandos para comprimir y descomprimir archivos en formato ZIP.
 
-<img width="584" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="584" alt="Captura233" src="imgReadme/img233.png">
 
 2 ◦ Una vez hayamos instalado los paquetes nos debemos ubicar en la carpeta /var/www/ con el comando cd accederemos a ella ```cd /var/wwww```.
 
-<img width="361" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="361" alt="Captura234" src="imgReadme/img234.png">
 
 3 ◦ Una vez estemos en la ruta /var/www/ deberemos descargar la última versión de WordPress. Como mi idioma nativo es el español yo seleccionaré la última versión en español. Utilizaremos el siguiente comando: ```sudo wget https://es.wordpress.org/latest-es_ES.zip```.
 
-<img width="779" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="779" alt="Captura235" src="imgReadme/img235.png">
 
 4 ◦ Descomprimimos el archivo que acabamos de descargar con el comando ```sudo unzip latest-es_ES.zip```.
 
-<img width="444" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="444" alt="Captura236" src="imgReadme/img236.png">
 
 5 ◦ Renombraremos la carpeta html y la llamaremos html_old. ```sudo mv html/ html_old/```.
 
-<img width="402" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="402" alt="Captura237" src="imgReadme/img237.png">
 
 6 ◦ Ahora renombraremos la carpeta wordpress y la llamaremos html. ```sudo mv wordpress/ html```.
 
-<img width="398" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="398" alt="Captura238" src="imgReadme/img238.png">
 
 7 ◦ Por último estableceremos estos permisos en la carpeta html. Daremos uso del comando ```sudo chmod -R 755 html```. El número 7 indica que el propietario tiene permisos de lectura, escritura y ejecución. El número 5 indica que el grupo y otros solo tienen permisos de lectura y ejecución.
 
-<img width="396" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="396" alt="Captura239" src="imgReadme/img239.png">
 
 ### Mariadb
 
@@ -1189,7 +1198,7 @@ Descripción breve de todos los tipos de particiones:
 
 1 ◦ Instalaremos los paquetes con el comando ```sudo apt install mariadb-server```
 
-<img width="797" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="797" alt="Captura240" src="imgReadme/img240.png">
 
 2 ◦ Debido a que la configuración predeterminada deja su instalación de MariaDB poco segura, utilizaremos un script que proporciona el paquete mariadb-server para restringir el acceso al servidor y eliminar las cuentas no utilizadas. Ejecutaremos el script con el siguiente comando ```sudo mysql_secure_installation```. Una vez ejecutemos el script nos hara una serie de preguntas.Preguntará si deseamos cambiar a la autenticación de socket de Unix. Como ya tenemos una cuenta root protegida escribiremos ```N```.
 
@@ -1202,11 +1211,11 @@ Remove test database and acces to it? → Y
 Reaload privilege tables now? → Y
 ```
 
-<img width="629" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="629" alt="Captura241" src="imgReadme/img241.png">
 
-<img width="704" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="704" alt="Captura242" src="imgReadme/img242.png">
 
-<img width="551" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="551" alt="Captura243" src="imgReadme/img243.png">
 
 Switch to unix_socket autentication? Escogemos ```N``` porque no deseamos que cambie a la auntenticación de socket de Unix ya tenemos una cuenta root protegida.
 
@@ -1222,31 +1231,31 @@ Reaload privilege tables now? Escogemos ```Y```. Asi se recargarán las tablas d
 
 1 ◦ Una vez hayamos terminado con la instalación de mariadb debemos crear la base de datos y el usuario para el WordPress. Lo primero debemos acceder a mariadb.
 
-<img width="492" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="492" alt="Captura244" src="imgReadme/img244.png">
 
 2 ◦ Creamos una base de datos para el WordPress. En mi caso le voy a llamar wp_database. Todo esto lo hare con el comando ```CREATE DATABASE wp_database;```.
 
-<img width="384" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="384" alt="Captura245" src="imgReadme/img245.png">
 
 3 ◦ Para asegurarnos que se ha creado la base de datos para el WordPress podemos ver todas las bases existentes con el comando ```SHOW DATABASES;```.
 
-<img width="282" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="282" alt="Captura246" src="imgReadme/img246.png">
 
 4 ◦ Acto seguido debemos crearemos un usuario dentro de la base de datos. Utilizaremos el comando ```CREATE USER 'gemartin'@'localhost' IDENTIFIED BY '12345';```.
 
-<img width="616" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="616" alt="Captura247" src="imgReadme/img247.png">
 
 5 ◦ Vinculamos el nuevo usuario a nuestra base de datos de manera que le otorguemos los permisos necesario para poder trabajar. Daremos uso del comando ```GRANT ALL PRIVILEGES ON wp_database.* TO 'gemartin'@'localhost';```.
 
-<img width="669" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="669" alt="Captura248" src="imgReadme/img248.png">
 
 6 ◦ Actualizamos los permisos para que los cambios tengan efecto con el comando ```FLUSH PRIVILEGES;```.
 
-<img width="321" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="321" alt="Captura249" src="imgReadme/img249.png">
 
 7 ◦ Una vez hemos completado el paso anterior ya podemos salir de mariadb.
 
-<img width="295" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="295" alt="Captura250" src="imgReadme/img250.png">
 
 ### PHP
 
@@ -1254,65 +1263,77 @@ Reaload privilege tables now? Escogemos ```Y```. Asi se recargarán las tablas d
 
 1 ◦ Instalamos los paquetes necesarios para poder ejecutar aplicaciones web escritas en lenguaje PHP y que necesiten conectarse a una base de datos MySQL. Ejecutaremos el siguiente comando ```sudo apt install php-cgi php-mysql```.
 
-<img width="541" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="541" alt="Captura251" src="imgReadme/img251.png">
 
 ### Configuración WordPress
 
 1 ◦ Accedemos al directorio /var/www/html con el comando: ```cd /var/www/html```
 
-<img width="326" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="326" alt="Captura252" src="imgReadme/img252.png">
 
 2 ◦ Copiamos el fichero wp-config-sample.php y lo renombraremos wp-config.php
 
-<img width="616" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="616" alt="Captura253" src="imgReadme/img253.png">
 
 3 ◦ Una vez lo hayamos renombrado editaremos el fichero wp-config.php ```nano wp-config.php``` y modificaremos los siguientes valores.
 
-<img width="841" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="841" alt="Captura254" src="imgReadme/img254.png">
 
 Hay que remplazarlos por los valores que hemos puesto anteriormente cuando creábamos la base de datos y el usuario para que WordPress pueda conectar y hacer uso de ella.
 
-<img width="842" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="500" alt="Captura255" src="imgReadme/img255.png">
 
 4 ◦ Habilitamos el módulo fastcgi-php en Lighttpd para mejorar el rendimiento y la velocidad de las aplicaciones web en el servidor. ```sudo lighty-enable-mod fastcgi```
 
+<!--
 ![image](https://user-images.githubusercontent.com/66915274/230748612-8253b2ee-15c6-42e0-8745-2148f48c6962.png)
+-->
+
+<img width="500" alt="Captura256" src="imgReadme/img256.png">
 
 5 ◦ Habilitamos el módulo fastcgi-php en Lighttpd para mejorar el rendimiento y la velocidad de las aplicaciones web basadas en PHP en el servidor. ```sudo lighty-enable-mod fastcgi-php```
 
+<!--
 ![image](https://user-images.githubusercontent.com/66915274/230748560-bd225efc-ea65-4a7d-bf08-eb72d61da58e.png)
+-->
+
+<img width="500" alt="Captura257" src="imgReadme/img257.png">
 
 6 ◦ Actualizamos y aplicamos los cambios en la configuración con el comando ```sudo service lighttpd force-reload```.
 
+<!--
 ![image](https://user-images.githubusercontent.com/66915274/230748835-9b44222d-e978-4a74-a501-e993c528a2a5.png)
+-->
+
+<img width="700" alt="Captura258" src="imgReadme/img258.png">
 
 7 ◦ Una vez ya hemos completado los pasos anteriores podemos volver a dirigirnos a nuestro navegador y escribiremos ```localhost```. Nos deberá salir lo siguiente:
 
-<img width="674" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="800" alt="Captura259" src="imgReadme/img259.png">
 
-<img width="1075" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="1075" alt="Captura260" src="imgReadme/img260.png">
 
 8 ◦ Debemos rellenar todos los campos. En mi caso he puesto lo siguiente:
 
-<img width="793" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="793" alt="Captura261" src="imgReadme/img261.png">
 
 9 ◦ Una vez hayamos rellenado todos los campos debemos darle a ```Instalar WordPress``` y ya habremos terminado la instalación. Nos saldrá la siguiente pestaña. Ahora WordPress puede crear las tablas y volcar todos los datos que necesita para funcionar en la base de datos que le hemos asignado.
 
-<img width="798" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="798" alt="Captura262" src="imgReadme/img262.png">
 
 10 ◦ Si accedemos de nuevo a nuestro localhost desde el navegador ya podemos ver nuestra página funcional.
 
-<img width="2560" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="2560" alt="Captura263" src="imgReadme/img263.png">
 
 11 ◦ Si queremos acceder al panel de administrador para hacer cambios en nuestra página deberemos poner en el navegador ```localhost/wp-admin``` y iniciaremos sesión con nuestra cuenta.
 
-<img width="368" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="368" alt="Captura264" src="imgReadme/img264.png">
 
-<img width="359" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="359" alt="Captura265" src="imgReadme/img265.png">
 
 12 ◦ Una vez accedamos ya podemos modificar lo que queramos a gusto propio. Personalizar la página es algo opcional, como no está especificado en el subject en esta guia no se tratará nada al respecto. 
 
-<img width="1100" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="1100" alt="Captura266" src="imgReadme/img266.png">
 
 
 ### 8.3 - Servicio adicional ➕
@@ -1325,12 +1346,12 @@ Hay que remplazarlos por los valores que hemos puesto anteriormente cuando creá
 
 ```sudo apt update```
 
-<img width="701" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="701" alt="Captura267" src="imgReadme/img267.png">
 
 
 ```sudo apt upgrade```
 
-<img width="507" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="507" alt="Captura268" src="imgReadme/img268.png">
 
 2 ◦ De forma predeterminada, OpenLiteSpeed está disponible en el repositorio base de Debian 11. Entonces, debes ejecutar el siguiente comando para agregar el repositorio OpenLiteSpeed a su sistema Debian:
 
@@ -1338,49 +1359,49 @@ Hay que remplazarlos por los valores que hemos puesto anteriormente cuando creá
 
 Como el comando es largo me he conectado via ssh.
 
-<img width="1129" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="1129" alt="Captura269" src="imgReadme/img269.png">
 
 3 ◦ De nuevo, actualizamos los paquetes y instalaremos OpenLiteSpeed.
 
 ```sudo apt update```
 
-<img width="627" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="627" alt="Captura270" src="imgReadme/img270.png">
 
 ```sudo apt install openlitespeed```
 
-<img width="801" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="801" alt="Captura271" src="imgReadme/img271.png">
 
 
 4 ◦ La contraseña predeterminada para OpenLiteSpeed es 123456. Cambiaremos la contraseña a algo más seguro con el siguiente comando.
 
 ```sudo /usr/local/lsws/admin/misc/admpass.sh```
 
-<img width="607" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="607" alt="Captura272" src="imgReadme/img272.png">
 
 5 ◦ Configuramos el firewall para permitir las conexiones mediante los puertos 8088 y 7080. Acto seguido agregaremos las reglas en el reenvio de puertos.
 
 ```sudo ufw allow 8088/tcp```
 
-<img width="446" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="446" alt="Captura273" src="imgReadme/img273.png">
 
 ```sudo ufw allow 7080/tcp```
 
-<img width="445" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="445" alt="Captura274" src="imgReadme/img274.png">
 
 ```sudo ufw reload```
 
-<img width="393" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="393" alt="Captura275" src="imgReadme/img275.png">
 
 Reglas en el reenvio de puertos.
 
-<img width="825" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="825" alt="Captura276" src="imgReadme/img276.png">
 
 
 6 ◦ Una vez completado el paso anterior ya podemos conectarnos. Pondremos en el buscador de nuestro navegador ```localhost:7080``` proporcionamos nuestras credenciales de inicio de sesión y ya tendremos acceso a todo.
 
-<img width="800" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="800" alt="Captura277" src="imgReadme/img277.png">
 
-<img width="1206" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="1206" alt="Captura278" src="imgReadme/img278.png">
 
 <br>
 <br>
@@ -1395,13 +1416,13 @@ Reglas en el reenvio de puertos.
 
 ## 9- Hoja de corrección ✅
 
-<img width="773" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="773" alt="Captura279" src="imgReadme/img279.png">
 
-<img width="772" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="772" alt="Captura280" src="imgReadme/img280.png">
 
-<img width="772" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="772" alt="Captura281" src="imgReadme/img281.png">
 
-<img width="772" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="772" alt="Captura282" src="imgReadme/img282.png">
 
 ## 9-1 Respuestas de la evaluación 💯
 
@@ -1415,7 +1436,11 @@ Esto es algo personal para cada uno, mi opinion: El propio subject explica que e
 
 ### ▪️ Diferencias basicas entre Rocky y Debian
 
+<!-->
 ![182516961-c3e4da77-2db8-4737-a68f-27b033908705 (1) (1)](https://user-images.githubusercontent.com/66915274/182517306-edb92eac-cba4-444a-83f8-9692bac69231.png)
+-->
+
+<img width="772" alt="Captura283" src="imgReadme/img283.png">
 
 ### ▪️ Cual es el proposito de las maquinas virtuales❓
 
@@ -1439,29 +1464,29 @@ Es un gestor de volúmenes lógicos. Proporciona un método para asignar espacio
 
 Utilizaremos el comando ```ls /usr/bin/*session``` y nos debe aparecer el mismo resultado que en la captura. Si aparece algo diferente se esta utilizando una interfaz grafica.
 
-<img width="352" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="352" alt="Captura284" src="imgReadme/img284.png">
 
 2 ◦ Comprobar que el servicio UFW esta en uso.
 
 ```sudo ufw status```
 
-<img width="326" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="326" alt="Captura285" src="imgReadme/img285.png">
 
 ```sudo service ufw status```
 
-<img width="720" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="720" alt="Captura286" src="imgReadme/img286.png">
 
 3 ◦ Comprobar que el servicio SSH esta en uso.
 
 ```sudo service ssh status```
 
-<img width="711" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="711" alt="Captura287" src="imgReadme/img287.png">
 
 4 ◦ Comprobar que utilizas el sistema operativo Debian o Centos.
 
 ```uname -v``` o ```uname --kernel-version```
 
-<img width="306" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="306" alt="Captura288" src="imgReadme/img288.png">
 
 5 ◦ Comprobar que tu usuario este dentro de los grupos "sudo" y "user42".
 
@@ -1469,186 +1494,186 @@ Utilizaremos el comando ```ls /usr/bin/*session``` y nos debe aparecer el mismo 
 
 ```getent group user42```
 
-<img width="314" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="314" alt="Captura289" src="imgReadme/img289.png">
 
 6 ◦ Crear un nuevo usuario y mostrar que sigue la politica de contraseñas que hemos creado.
 
 ```sudo adduser name_user``` y introducimos una contraseña que siga la politica.
 
-<img width="465" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="465" alt="Captura290" src="imgReadme/img290.png">
 
 7 ◦ Creamos un nuevo grupo llamado "evaluating". 
 
 ```sudo addgroup evaluating```
 
-<img width="363" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="363" alt="Captura291" src="imgReadme/img291.png">
 
 8 ◦ Añadimos el nuevo usuario al nuevo grupo.
 
 ```sudo adduser name_user evaluating```
 
-<img width="411" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="411" alt="Captura292" src="imgReadme/img292.png">
 
 Para comprobar que se haya introducido correctamente.
 
-<img width="356" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="356" alt="Captura293" src="imgReadme/img293.png">
 
 9 ◦ Comprobar que el hostname de la maquina es correcto login42.
 
-<img width="224" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="224" alt="Captura294" src="imgReadme/img294.png">
 
 
 10 ◦ Modificar hostname para remplazar tu login por el del evaluador. En este caso lo reemplazare por student42.
 
 ```sudo nano /etc/hostname``` y remplazamos nuestro login por el nuevo.
 
-<img width="445" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="445" alt="Captura295" src="imgReadme/img295.png">
 
-<img width="525" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="525" alt="Captura296" src="imgReadme/img296.png">
 
 ```sudo nano /etc/hosts``` y remplazamos nuestro login por el nuevo.
 
-<img width="418" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="418" alt="Captura297" src="imgReadme/img297.png">
 
-<img width="512" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="512" alt="Captura298" src="imgReadme/img298.png">
 
 Reiniciamos la maquina.
 
-<img width="358" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="358" alt="Captura299" src="imgReadme/img299.png">
 
 Una vez nos hemos logueado de nuevo podemos ver como el hostname se ha cambiado correctamente.
 
-<img width="263" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="263" alt="Captura300" src="imgReadme/img300.png">
 
 11 ◦ Comprobar que todas las particiones son como indica el subject.
 
 ```lsblk```
 
-<img width="495" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="495" alt="Captura301" src="imgReadme/img301.png">
 
 12 ◦ Comprobar que sudo esta instalado.
 
 ```which sudo```
 
-<img width="275" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="275" alt="Captura302" src="imgReadme/img302.png">
 
 Utilizar which realmente no es una buena practica ya que no todos los paquetes se encuentran en las rutas donde which busca, aun asi para la evaluacion es mejor ya que es un comando sencillo y facil de aprender. Para un mejor uso haremos uso del siguiente comando:
 
 ```dpkg -s sudo```
 
-<img width="789" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="789" alt="Captura303" src="imgReadme/img303.png">
 
 13 ◦ Introducimos el nuevo usuario dentro del grupo sudo.
 
 ```sudo adduser name_user sudo```
 
-<img width="468" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="468" alt="Captura304" src="imgReadme/img304.png">
 
 Comprobamos que esta dentro del grupo.
 
- <img width="415" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+ <img width="415" alt="Captura305" src="imgReadme/img305.png">
 
 14 ◦ Muestra la aplicación de las reglas impuestas para sudo por el subject.
 
-<img width="503" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="503" alt="Captura306" src="imgReadme/img306.png">
 
-<img width="762" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="762" alt="Captura307" src="imgReadme/img307.png">
 
 15 ◦ Muestra que la ruta /var/log/sudo/ existe y contiene almenos un fichero, en este se debería ver un historial de los comandos utilizados con sudo.
 
-<img width="295" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="295" alt="Captura308" src="imgReadme/img308.png">
 
-<img width="643" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="643" alt="Captura309" src="imgReadme/img309.png">
 
 Ejecuta un comando con sudo y comprueba que se actualiza el fichero.
 
-<img width="439" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="439" alt="Captura310" src="imgReadme/img310.png">
 
-<img width="661" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="661" alt="Captura311" src="imgReadme/img311.png">
 
 16 ◦ Comprueba que el programa UFW esta instalado en la maquina virtual y comprueba que funciona correctamente.
 
 ```dpkg -s ufw```
 
-<img width="730" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="730" alt="Captura312" src="imgReadme/img312.png">
 
 ```sudo service ufw status```
 
-<img width="704" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="704" alt="Captura313" src="imgReadme/img313.png">
 
 17 ◦ Lista las reglas activas en UFW si no esta hecha la parte bonus solo debe aparecer la regla para el puerto 4242.
 
 ```sudo ufw status numbered```
 
-<img width="500" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="500" alt="Captura314" src="imgReadme/img314.png">
 
 18 ◦ Crea una nueva regla para el puerto 8080. Comprueba que se ha añadido a las reglas activas y acto seguido puedes borrarla.
 
 ```sudo ufw allow 8080``` para crearla
 
-<img width="327" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="327" alt="Captura315" src="imgReadme/img315.png">
 
 ```sudo ufw status numbered```
 
-<img width="473" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="473" alt="Captura316" src="imgReadme/img316.png">
 
 Para borrar la regla debemos utilizar el comando ```sudo ufw delete num_rule```
 
-<img width="308" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="308" alt="Captura317" src="imgReadme/img317.png">
 
 Comprobamos que se ha eliminado y vemos el numero de la siguiente regla que hay que borrar.
 
-<img width="467" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="467" alt="Captura318" src="imgReadme/img318.png">
 
 Borramos de nuevo la regla.
 
-<img width="308" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="308" alt="Captura319" src="imgReadme/img319.png">
 
 Comprobamos que solo nos quedan las reglas requeridas en el subject.
 
-<img width="461" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="461" alt="Captura320" src="imgReadme/img320.png">
 
 19 ◦ Comprueba que el servicio ssh esta instalado en la maquina virtual, que funciona correctamente y que solo funciona por el puerto 4242.
 
 ```which ssh```
 
-<img width="235" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="235" alt="Captura321" src="imgReadme/img321.png">
 
 ```sudo service ssh status```
 
-<img width="616" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="616" alt="Captura322" src="imgReadme/img322.png">
 
 20 ◦ Usa ssh para iniciar sesión con el usuario recién creado. Asegurate de que no puede usar ssh con el usuario root.
 
 Intentamos conectarnos por ssh con el usuario root pero no tenemos permisos.
 
-<img width="1377" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="1377" alt="Captura323" src="imgReadme/img323.png">
 
 Nos conectamos por ssh con el nuevo usuario con el comando ```ssh newuser@localhost -p 4242```
 
-<img width="1384" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="1384" alt="Captura324" src="imgReadme/img324.png">
 
 21 ◦ Modifica el tiempo de ejecución del script de 10 minutos a 1.
 
 Ejecutamos el siguiente comando para asi modificar el fichero crontab ```sudo crontab -u root -e```
 
-<img width="455" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="455" alt="Captura325" src="imgReadme/img325.png">
 
 Modificamos el primer paramentro , en vez de 10 lo cambiamos a 1.
 
-<img width="638" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="638" alt="Captura326" src="imgReadme/img326.png">
 
 22 ◦ Finalmente haz que el script deje de ejecutarse cuando el servidor se haya iniciado, pero sin modificar el script.
 
 ```sudo /etc/init.d/cron stop```
 
-<img width="483" alt="CapturaxxxM" src="imgReadme/imgxxx.png">
+<img width="483" alt="Captura327" src="imgReadme/img327.png">
 
 Si queremos que vuelva a ejecutarse:
 
 ```sudo /etc/init.d/cron start```
 
-<img width="483" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="483" alt="Captura328" src="imgReadme/img328.png">
 
 ## 10- Tester 🆗
 
@@ -1656,21 +1681,5 @@ Comprueba que no te hayas dejado nada! Tester propio para checkear que la instal
 
 [AQUÍ](https://github.com/gemartin99/Born2beroot-Tester)
 
-<img width="440" alt="Capturaxxx" src="imgReadme/imgxxx.png">
+<img width="440" alt="Captura329" src="imgReadme/img329.png">
 
-# Contacto 📥
-
-### Contacta conmigo si crees que puedo mejorar el tutorial! Puede ayudar a futuros estudiantes! 😁
-
-◦ Email: gemartin@student.42barcelona.com
-
-◦ Linkedin: https://www.linkedin.com/in/gemartin99/
-
-# Quizás pueda interesarte!
-
-### - Para ver mi progresion en el common core 42 ↙️
-
-[AQUÍ](https://github.com/gemartin99/42cursus)
-
-### - Mi perfil en la intranet de 42 ↙️
-[AQUÍ](https://profile.intra.42.fr/users/gemartin)
